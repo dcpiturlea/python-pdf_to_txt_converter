@@ -8,13 +8,20 @@ import os
 import easygui
 import json
 import main
+from datetime import datetime
+import webbrowser
+
 
 global text_result
 global lines
-
+global start_time
+global txt_file_path
 
 class UI(QMainWindow):
     def __init__(self):
+        global start_time
+        start_time = datetime.now()
+
         super(UI, self).__init__()
         uic.loadUi("ui.ui", self)
         self.setFixedSize(500, 100)
@@ -46,7 +53,8 @@ class UI(QMainWindow):
 
     # open result file
     def clickedBtn_Open_file(self):
-        pass
+
+        webbrowser.open(txt_file_path)
 
     # open pdf file
     def clickedBtn_Import_pdf(self):
@@ -66,21 +74,22 @@ class UI(QMainWindow):
             self.label_no_page.show()
             if no_pages < 12:
                 self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
-                    no_pages * 5.5) + " secunde")
+                    no_pages * 5) + " secunde")
             else:
                 self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
-                    no_pages * 5.5 / 60) + " min")
+                    no_pages * 5 / 60) + " min")
 
             self.label_no_page.repaint()
 
             print("Pagini de procesat: " + str(no_pages))
 
-            self.gui_convert(PDF_file_path, file_types)
+            self.gui_convert(PDF_file_path, file_types, no_pages)
         except Exception as ex:
             print("A aparut o eroare: " + str(ex))
 
-    def gui_convert(self, PDF_file_path, file_types):
+    def gui_convert(self, PDF_file_path, file_types, no_pages):
         try:
+            global txt_file_path
             # extract the text from PDF
             txt_file_path = main.main_func(PDF_file_path, file_types)
 
@@ -93,7 +102,14 @@ class UI(QMainWindow):
                 self.QListWidget_text_lines.show()
                 self.textedit_search.show()
                 self.button_open_result_file.show()
+                final_time = datetime.now()
+                time_diff = final_time-start_time
+                diff_in_seconds = time_diff.days * 24 * 60 * 60 + time_diff.seconds
 
+                if diff_in_seconds < 60:
+                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(diff_in_seconds) + " secunde")
+                else:
+                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(diff_in_seconds/ 60) + " min")
 
         except Exception as ex:
             print("A aparut o eroare: " + str(ex))
