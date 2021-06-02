@@ -11,16 +11,14 @@ import main
 from datetime import datetime
 import webbrowser
 
-
 global text_result
 global lines
 global start_time
 global txt_file_path
 
+
 class UI(QMainWindow):
     def __init__(self):
-        global start_time
-        start_time = datetime.now()
 
         super(UI, self).__init__()
         uic.loadUi("ui.ui", self)
@@ -68,16 +66,24 @@ class UI(QMainWindow):
                                                 title='Alege un fisier',
                                                 default=default_path,
                                                 filetypes=file_types, multiple=False)
+            global start_time
+            start_time = datetime.now()
 
             # set waiting time:
             no_pages = main.get_pdf_number_of_pages(PDF_file_path)
             self.label_no_page.show()
             if no_pages < 12:
-                self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
-                    no_pages * 5) + " secunde")
+                self.label_no_page.setText(
+                    "Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(round(
+                        no_pages * 3, 2)) + " secunde")
+            elif no_pages < 100:
+                self.label_no_page.setText(
+                    "Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(round(
+                        no_pages * 4.5 / 60, 2)) + " min")
             else:
-                self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
-                    no_pages * 5 / 60) + " min")
+                self.label_no_page.setText(
+                    "Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(round(
+                        no_pages * 5.5 / 60, 2)) + " min")
 
             self.label_no_page.repaint()
 
@@ -103,13 +109,15 @@ class UI(QMainWindow):
                 self.textedit_search.show()
                 self.button_open_result_file.show()
                 final_time = datetime.now()
-                time_diff = final_time-start_time
+                time_diff = final_time - start_time
                 diff_in_seconds = time_diff.days * 24 * 60 * 60 + time_diff.seconds
 
                 if diff_in_seconds < 60:
-                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(diff_in_seconds) + " secunde")
+                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
+                        diff_in_seconds) + " secunde")
                 else:
-                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(diff_in_seconds/ 60) + " min")
+                    self.label_no_page.setText("Pagini procesate: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
+                        round(diff_in_seconds / 60, 2)) + " min")
 
         except Exception as ex:
             print("A aparut o eroare: " + str(ex))
@@ -137,6 +145,7 @@ class UI(QMainWindow):
             print(f'line {count}: {line}')
 
         # add each line to ui
+        self.listView.clear()
         for line in lines:
             self.listView.addItem(line.capitalize())
 

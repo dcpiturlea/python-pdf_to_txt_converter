@@ -32,6 +32,8 @@ def main_func(PDF_file_path, file_types):
 
     # Counter to store images of each page of PDF to image
     image_counter = 1
+    # TESERRACT: https://github.com/UB-Mannheim/tesseract/wiki
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
     # Iterate through all the pages stored above
     for page in pages:
@@ -64,8 +66,7 @@ def main_func(PDF_file_path, file_types):
     f = open(outfile, "a")
 
     # Iterate from 1 to total number of pages
-    # TESERRACT: https://github.com/UB-Mannheim/tesseract/wiki
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 
     for i in range(1, filelimit + 1):
         # Set filename to recognize text from
@@ -79,6 +80,8 @@ def main_func(PDF_file_path, file_types):
         # Recognize the text as string in image using pytesserct
         text = str(((pytesseract.image_to_string(Image.open(filename)))))
 
+        # DELETE THE PAGE
+        os.remove(filename)
         # The recognized text is stored in variable text
         # Any string processing may be applied on text
         # Here, basic formatting has been done:
