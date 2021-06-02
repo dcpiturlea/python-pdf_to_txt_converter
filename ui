@@ -1,0 +1,161 @@
+import time
+
+from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QListView, QMessageBox, QLabel, \
+    QCommandLinkButton, QLineEdit, QListWidgetItem, QScrollArea
+from PyQt5 import uic
+import sys
+import os
+import easygui
+import json
+import main
+
+global text_result
+global lines
+
+
+class UI(QMainWindow):
+    def __init__(self):
+        super(UI, self).__init__()
+        uic.loadUi("ui.ui", self)
+        self.setFixedSize(500, 100)
+
+        # declarare input box search
+        self.textedit_search = self.findChild(QLineEdit, "textEdit_search")
+        self.textedit_search.textChanged.connect(self.sync_lineEdit)
+        # declarare buton import
+        self.button_import = self.findChild(QPushButton, "pushButton_import")
+        self.button_import.clicked.connect(self.clickedBtn_Import_pdf)
+
+        self.button_open_result_file = self.findChild(QPushButton, "pushButton_open_txt_file")
+        self.button_open_result_file.clicked.connect(self.clickedBtn_Open_file)
+        self.button_open_result_file.hide()
+
+        self.label_no_page = self.findChild(QLabel, "label_no_page")
+        self.label_no_page.hide()
+
+        # declarare list view fisierul text
+        self.listView = self.findChild(QListView, "QListWidget_text_lines")
+        self.listView.itemClicked.connect(self.clickedLView)
+        self.QListWidget_text_lines.hide()
+
+        # initializare labeluri
+        self.initialize_interface()
+
+        # populare list cu toate tarile si afisare GUI
+        self.show()
+
+    # open result file
+    def clickedBtn_Open_file(self):
+        pass
+
+    # open pdf file
+    def clickedBtn_Import_pdf(self):
+
+        PDF_file_path = ""
+        default_path = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') + "\*.pdf"
+        file_types = ["*.pdf", "*.jpg", "*.jepg", "*.PNG"]
+        try:
+            # Path of the pdf
+            PDF_file_path = easygui.fileopenbox(msg='Alege fisierul pe care vrei sa il transformi in text',
+                                                title='Alege un fisier',
+                                                default=default_path,
+                                                filetypes=file_types, multiple=False)
+
+            # set waiting time:
+            no_pages = main.get_pdf_number_of_pages(PDF_file_path)
+            self.label_no_page.show()
+            if no_pages < 12:
+                self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
+                    no_pages * 5.5) + " secunde")
+            else:
+                self.label_no_page.setText("Pagini de procesat: " + str(no_pages) + "\n" + "Timp asteptare: " + str(
+                    no_pages * 5.5 / 60) + " min")
+
+            self.label_no_page.repaint()
+
+            print("Pagini de procesat: " + str(no_pages))
+
+            self.gui_convert(PDF_file_path, file_types)
+        except Exception as ex:
+            print("A aparut o eroare: " + str(ex))
+
+    def gui_convert(self, PDF_file_path, file_types):
+        try:
+            # extract the text from PDF
+            txt_file_path = main.main_func(PDF_file_path, file_types)
+
+            # check if the txt_file_path exist:
+            if not os.path.isfile(txt_file_path):
+                self.prompt_message("Nu ati ales un fisier .pdf", "Eroare")
+            else:
+                self.setFixedSize(813, 543)
+                self.populate_view_with_text_lines(txt_file_path)
+                self.QListWidget_text_lines.show()
+                self.textedit_search.show()
+                self.button_open_result_file.show()
+
+
+        except Exception as ex:
+            print("A aparut o eroare: " + str(ex))
+
+    def clickedLView(self, item):
+        try:
+            global selected_line
+            selected_line = item.text()
+
+            # self.label_suprafata.setText(str(countries.get_area_by_country(str(item.text()))) + " m2")
+
+        except:
+
+            print("dsadsa")
+
+    def populate_view_with_text_lines(self, txt_file_path):
+        global lines
+        lines = []
+        with open(txt_file_path) as f:
+            lines = f.readlines()
+
+        count = 0
+        for line in lines:
+            count += 1
+            print(f'line {count}: {line}')
+
+        # add each line to ui
+        for line in lines:
+            self.listView.addItem(line.capitalize())
+
+    # input box pentru cautarea tarii
+    def sync_lineEdit(self, text):
+        self.listView.clear()
+        items = []
+        last_item = QListWidgetItem()
+        for line in lines:
+            if text.lower() in line.lower():
+                items.append(line)
+                item = QListWidgetItem(line.capitalize())
+                last_item = item
+                self.listView.addItem(item)
+        if len(items) == 1:
+            self.listView.setCurrentItem(last_item)
+            self.clickedLView(last_item)
+        else:
+            print('dsad')
+
+    def initialize_interface(self):
+        # initializare label-uri
+
+        self.textedit_search.hide()
+
+    def prompt_message(self, text, title):
+        msg = QMessageBox()
+        msg.setText(text)
+        msg.setWindowTitle(title)
+        msg.setIcon(QMessageBox.Information)
+        msg.setStyleSheet("QLabel{ color: white}")
+        msg.setStyleSheet("text-color: rgb(255, 255, 255);")
+        msg.exec_()
+
+
+app = QApplication(sys.argv)
+window = UI()
+app.exec_()
