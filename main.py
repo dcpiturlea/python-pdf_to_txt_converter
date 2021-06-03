@@ -44,35 +44,27 @@ def main_func(PDF_file_path=None, file_types=None):
         # TESERRACT: https://github.com/UB-Mannheim/tesseract/wiki
         pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-        if 0 < no_of_pages <= 300:
+        if 0 < no_of_pages <= 50:
 
             # Store all the pages of the PDF in a variable
-            pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=300)
-            # save each image in location
-            outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
-        elif 300 < no_of_pages <= 600:
-            # Store all the pages of the PDF in a variable
-            pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=int(no_of_pages / 2))
-            # save each image in location
-            convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
-
-            # Store all the pages of the PDF in a variable
-            pages = convert_from_path(PDF_file_path, 400, first_page=int(no_of_pages / 2 + 1), last_page=no_of_pages)
+            pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=no_of_pages)
             # save each image in location
             outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
         else:
-            no_of_steps = int(no_of_pages / 300)
+            no_of_steps = int(no_of_pages / 10)
             for i in range(0, no_of_steps):
                 # Store all the pages of the PDF in a variable
                 if i == 0:
-                    fistPage = i * 300
+                    fistPage = i * 10 + 1
                 else:
-                    fistPage = i * 300 + 1
+                    fistPage = i * 10 + 1
 
                 if i == no_of_steps:
                     lastPage = no_of_pages
                 else:
-                    lastPage = (i + 1) * 300
+                    lastPage = (i + 1) * 10
+
+                print('first_page: ' + str(fistPage) + ", last_page: " +str(lastPage))
                 pages = convert_from_path(PDF_file_path, 400, first_page=fistPage,
                                           last_page=lastPage)
                 # save each image in location
@@ -86,6 +78,7 @@ def main_func(PDF_file_path=None, file_types=None):
 
 
 def convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages):
+    print("Convert each image to text)")
     # Counter to store images of each page of PDF to image
     image_counter = 1
 
@@ -171,3 +164,5 @@ def get_pdf_number_of_pages(pdf_file_path):
         pdf_reader = PdfFileReader(pdf_file)
 
         return pdf_reader.numPages
+
+main_func()
