@@ -49,7 +49,9 @@ def main_func(PDF_file_path=None, file_types=None):
             # Store all the pages of the PDF in a variable
             pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=no_of_pages)
             # save each image in location
-            outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+            # Variable to get count of total number of pages
+            filelimit = no_of_pages
+            outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages, filelimit)
         else:
             no_of_steps = int(no_of_pages / 10)
             for i in range(0, no_of_steps):
@@ -68,24 +70,21 @@ def main_func(PDF_file_path=None, file_types=None):
                 pages = convert_from_path(PDF_file_path, 400, first_page=fistPage,
                                           last_page=lastPage)
                 # save each image in location
-                outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+                outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages, 10)
 
         print("Programul a terminat de convertit fisierul in text")
     else:
         outfile = PDF_file_path
-
+    print("output filepath: " + outfile)
     return outfile
 
 
-def convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages):
+def convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages, filelimit):
     print("Convert each image to text)")
     # Counter to store images of each page of PDF to image
     image_counter = 1
 
     save_images(pages, initial_file_name, image_counter)
-
-    # Variable to get count of total number of pages
-    filelimit = no_of_pages
 
     # Iterate from 1 to total number of pages and extract the final text(Recognizing text from the images using OCR)
     final_text = extract_text_from_images(filelimit, initial_file_name)
