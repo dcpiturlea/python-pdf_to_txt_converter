@@ -6,9 +6,23 @@ from pdf2image import convert_from_path
 import os
 import pathlib
 from PyPDF2 import PdfFileReader
+import easygui
 
 
-def main_func(PDF_file_path, file_types):
+def main_func(PDF_file_path=None, file_types=None):
+    if PDF_file_path is None and file_types is None:
+        PDF_file_path = ""
+        default_path = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') + "\*.pdf"
+        file_types = ["*.pdf", "*.jpg", "*.jepg", "*.PNG"]
+        try:
+            # Path of the pdf
+            PDF_file_path = easygui.fileopenbox(msg='Alege fisierul pe care vrei sa il transformi in text',
+                                                title='Alege un fisier',
+                                                default=default_path,
+                                                filetypes=file_types, multiple=False)
+        except Exception as ex:
+            exit(1)
+
     # if the user does not select a file the soft will be shut down
     if PDF_file_path is None or PDF_file_path.strip() == "":
         return "Fisierul ales nu este un pdf sau o imagine"
@@ -25,16 +39,84 @@ def main_func(PDF_file_path, file_types):
         '''
         Part #1 : Converting PDF to images
         '''
-        # Store all the pages of the PDF in a variable
-        pages = convert_from_path(PDF_file_path, 400)
-    else:
-        pages = PDF_file_path
+        no_of_pages = get_pdf_number_of_pages(PDF_file_path)
 
+        # TESERRACT: https://github.com/UB-Mannheim/tesseract/wiki
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+        if 0 < no_of_pages <= 300:
+
+            # Store all the pages of the PDF in a variable
+            pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=300)
+            # save each image in location
+            outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+        elif 300 < no_of_pages <= 600:
+            # Store all the pages of the PDF in a variable
+            pages = convert_from_path(PDF_file_path, 400, first_page=1, last_page=int(no_of_pages / 2))
+            # save each image in location
+            convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+
+            # Store all the pages of the PDF in a variable
+            pages = convert_from_path(PDF_file_path, 400, first_page=int(no_of_pages / 2 + 1), last_page=no_of_pages)
+            # save each image in location
+            outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+        else:
+            no_of_steps = int(no_of_pages / 300)
+            for i in range(0, no_of_steps):
+                # Store all the pages of the PDF in a variable
+                if i == 0:
+                    fistPage = i * 300
+                else:
+                    fistPage = i * 300 + 1
+
+                if i == no_of_steps:
+                    lastPage = no_of_pages
+                else:
+                    lastPage = (i + 1) * 300
+                pages = convert_from_path(PDF_file_path, 400, first_page=fistPage,
+                                          last_page=lastPage)
+                # save each image in location
+                outfile = convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages)
+
+        print("Programul a terminat de convertit fisierul in text")
+    else:
+        outfile = PDF_file_path
+
+    return outfile
+
+
+def convert_to_image_and_extract_the_text(pages, initial_file_name, no_of_pages):
     # Counter to store images of each page of PDF to image
     image_counter = 1
-    # TESERRACT: https://github.com/UB-Mannheim/tesseract/wiki
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+    save_images(pages, initial_file_name, image_counter)
+
+    # Variable to get count of total number of pages
+    filelimit = no_of_pages
+
+    # Iterate from 1 to total number of pages and extract the final text(Recognizing text from the images using OCR)
+    final_text = extract_text_from_images(filelimit, initial_file_name)
+
+    outfile = write_text_in_file(initial_file_name, final_text)
+
+    return outfile
+
+
+def write_text_in_file(initial_file_name, final_text):
+    # Creating a text file to write the output
+    outfile = initial_file_name + ".txt"
+
+    # All contents of all images are added to the same file
+    f = open(outfile, "a")
+    # Finally, write the processed text to the file.
+    f.write(final_text)
+
+    # Close the file after writing all the text.
+    f.close()
+    return outfile
+
+
+def save_images(pages, initial_file_name, image_counter):
     # Iterate through all the pages stored above
     for page in pages:
         # Declaring filename for each page of PDF as JPG
@@ -51,23 +133,11 @@ def main_func(PDF_file_path, file_types):
 
         # Increment the counter to update filename
         image_counter = image_counter + 1
-
-    '''
-    Part #2 - Recognizing text from the images using OCR
-    '''
-    # Variable to get count of total number of pages
-    filelimit = image_counter - 1
-
-    # Creating a text file to write the output
-    outfile = initial_file_name + ".txt"
-
-    # Open the file in append mode so that
-    # All contents of all images are added to the same file
-    f = open(outfile, "a")
-
-    # Iterate from 1 to total number of pages
+    return image_counter
 
 
+def extract_text_from_images(filelimit, initial_file_name):
+    final_text = ""
     for i in range(1, filelimit + 1):
         # Set filename to recognize text from
         # Again, these files will be:
@@ -92,16 +162,8 @@ def main_func(PDF_file_path, file_types):
         # orGeeks is half on first line, remaining on next.
         # To remove this, we replace every '-\n' to ''.
         text = text.replace('-\n', '')
-
-        # Finally, write the processed text to the file.
-        f.write(text)
-
-    # Close the file after writing all the text.
-    f.close()
-
-    print("Programul a terminat de convertit fisierul in text")
-
-    return outfile
+        final_text = final_text + text
+    return final_text
 
 
 def get_pdf_number_of_pages(pdf_file_path):
