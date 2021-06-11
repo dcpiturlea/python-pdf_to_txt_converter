@@ -1,0 +1,2048 @@
+AB- segment in spatiu
+ab - proiectia orizontala
+
+a’b’ - proiectia verticala
+
+a Bb. projiectia laterald
+
+Figura 3 va prezenta cadrul general de generare pentru o proiectic ortogonala sau
+perpendiculara a unui punct oarecare din spatiu pe un plan de proiectie. Planul P este notat conform
+
+normelor intre paranteze drepte [P].
+
+ 
+Figura 2
+D -dreaptS in spatiu
+d - proiectia onzontald a dreptei D din spatiu
+d’- proiectia verticald a dreptei D din spatiu
+
+d” - proiectia laterala a dreptei D din spatiu
+
+D(a da")
+
+AB-segment in spatiu
+ab - proiectia orizontald
+a'b’ - oroiectia verticala
+
+nat + @ Sie oe Fee | ee ee | F
+= is! : = F ee af. ial 4 7 = ae lic > a
+
+ 
+Figura 2
+D -dreaptain spatiu
+
+d - proiectia onzontald a dreptei D din spatiu
+
+d'- proiectia vertical a dreptei D din spatiu
+
+ 
+ 
+{H] — planul orizontal de proiectie
+[V] -planul vertical de proiectie
+
+{L] — planul lateral de proiectic
+
+ 
+Notatu utilizate
+- puncte in spatiu
+a,b,c....- proiectiile onzontale ale punctelor A, B, C...
+a’, b’, ...- proiectiile verticale ale punctelor A, B...
+
+a’’,b’’, ...- proectule laterale ale punctelor A, B...
+
+|P] -plan oarecare
+
+ 
+
+ 
+Scopul integrarm acestor elemente il reprezinté generarea $i eficientizarea traseului tehnic
+
+proiectare-fabricatie-produs deoarece scopul final al orcdrei reprezentdri grafice i] reprezinta
+
+realizarea practicd de produse de calitate dezvoltate cu costun mic in intervale scurte de timp.
+
+Geometna descriptivd este consideraté de mul{i auton din domeniu ca fiind o stun{é grafica.
+Aceasta se ocupé cu studiul proiectulor avand ca scop reprezentarea planad a elementelor din spatiu,
+a pozitici relative dintre accstea, a sectiondril, intersectdrii si desfasurarii suprafetclor sau a
+corpurilor tridimensionale (Popescu, 2004).
+
+Desenul tehnic este considerat de unii autori din domeniu o metoda de ,,comunicare”’
+exprimaté prin norme, conventii 51 reguli grafice conform literaturii de specialitate. Astfel desenul
+technic se referd la o reprezentarea graficd exact4 a unui obicct spatial, realizaté pe baza unui set de
+
+reguli $i conventii stabilite in acest scop.
+
+ 
+Reprezentarea grafica exacté a unui obiect spatial se realizeaza utilizand cunostintele din
+doudé domenii conexe si anume geometna descriptivé si desenul tehnic. Figura | propune o
+
+conexiune de cunostinjfe intre abordarle teoretice din desen tehnic, geometrie descriptiva si
+
+apheabilitatea pracucd existent4 in protectarea asistala de calculator (CAD - Computer Awed
+
+Design), fabricaja asisté de calculator (CAM- Computer Aided Manufacturing) si programele
+
+sottware specifice domeniulut.
+
+ 
+ 
+Grafica asistata de calculator
+
+Bibliografie
+
+l.
+
+~
+
+- } ¥
+
+Bodea,S.. - Geometric  descriptiva, Editura  Risoprint, Cluj-Napoca, 2006,
+http://mecanica.utcluj.ro/cursun.html.
+
+Calin, O.. Serban. R. — Bazele graficii asistate de calculator, Editura Victor, Bucuresti, 2019
+Popescu. T. V.— Geometne descnptiva. Editura Universitana, Craiova, 2004
+
+Sinnon, [. - AutoCAD 2011 pentru mginert, Editura Teora Bucuresti, 201! 1
+
+Yorik van Havre and FreeCAD community - <A FreeCAD manual,
+201 7( https www. githook.com/ book! yorikvanhavre/a-freecad-manual_pdf)
+
+www.autodesk.com
+
+www.freecadweb.org
+
+Grafica asistata de calculator — consideratii generale
+Figura 3 Proiectia ortogonala
+
+Din punctul A din spatiu se va trasa o drepta perpendiculara pe planul oarecare [P|. Acesta
+dreapta intersecteaza planul in punctul {a}. Conform axiomei matematice referitoare la proprietatile
+dreptelor perpendiculare si anume ca printr-un punct se poate trasa o singura perpendicular sI
+analizand figura 3 se observa ca unui punct oarecare A din spatiu situat pe o dreapta_ ii corespunde
+
+© proiectie ortogonala unica {a}. Reciproca nu este valabilé deoarece proiectiei {a} din plan fi poate
+
+corespunde o infinitate de puncte A;...A, toate situate pe aceiasi perpendiculara . In concluzie pentru
+
+a reprezenta In mod exact un punct in spa{iu sunt necesare mai multe date referitoare la pozijionarea
+
+sa in raport cu un plan.
+
+ 
+AB- segment in spatiu
+ab - proiectia orizontala
+
+a’b’ - proiectia verticala
+
+a Bb. projiectia laterald
+
+Figura 3 va prezenta cadrul general de generare pentru o proiectic ortogonala sau
+perpendiculara a unui punct oarecare din spatiu pe un plan de proiectie. Planul P este notat conform
+
+normelor intre paranteze drepte [P].
+
+ 
+Figura 2
+D -dreaptS in spatiu
+d - proiectia onzontald a dreptei D din spatiu
+d’- proiectia verticald a dreptei D din spatiu
+
+d” - proiectia laterala a dreptei D din spatiu
+
+D(a da")
+
+AB-segment in spatiu
+ab - proiectia orizontald
+a'b’ - oroiectia verticala
+
+nat + @ Sie oe Fee | ee ee | F
+= is! : = F ee af. ial 4 7 = ae lic > a
+
+ 
+Figura 2
+D -dreaptain spatiu
+
+d - proiectia onzontald a dreptei D din spatiu
+
+d'- proiectia vertical a dreptei D din spatiu
+
+ 
+ 
+{H] — planul orizontal de proiectie
+[V] -planul vertical de proiectie
+
+{L] — planul lateral de proiectic
+
+ 
+Notatu utilizate
+- puncte in spatiu
+a,b,c....- proiectiile onzontale ale punctelor A, B, C...
+a’, b’, ...- proiectiile verticale ale punctelor A, B...
+
+a’’,b’’, ...- proectule laterale ale punctelor A, B...
+
+|P] -plan oarecare
+
+ 
+
+ 
+Scopul integrarm acestor elemente il reprezinté generarea $i eficientizarea traseului tehnic
+
+proiectare-fabricatie-produs deoarece scopul final al orcdrei reprezentdri grafice i] reprezinta
+
+realizarea practicd de produse de calitate dezvoltate cu costun mic in intervale scurte de timp.
+
+Geometna descriptivd este consideraté de mul{i auton din domeniu ca fiind o stun{é grafica.
+Aceasta se ocupé cu studiul proiectulor avand ca scop reprezentarea planad a elementelor din spatiu,
+a pozitici relative dintre accstea, a sectiondril, intersectdrii si desfasurarii suprafetclor sau a
+corpurilor tridimensionale (Popescu, 2004).
+
+Desenul tehnic este considerat de unii autori din domeniu o metoda de ,,comunicare”’
+exprimaté prin norme, conventii 51 reguli grafice conform literaturii de specialitate. Astfel desenul
+technic se referd la o reprezentarea graficd exact4 a unui obicct spatial, realizaté pe baza unui set de
+
+reguli $i conventii stabilite in acest scop.
+
+ 
+Reprezentarea grafica exacté a unui obiect spatial se realizeaza utilizand cunostintele din
+doudé domenii conexe si anume geometna descriptivé si desenul tehnic. Figura | propune o
+
+conexiune de cunostinjfe intre abordarle teoretice din desen tehnic, geometrie descriptiva si
+
+apheabilitatea pracucd existent4 in protectarea asistala de calculator (CAD - Computer Awed
+
+Design), fabricaja asisté de calculator (CAM- Computer Aided Manufacturing) si programele
+
+sottware specifice domeniulut.
+
+ 
+ 
+Grafica asistata de calculator
+
+Bibliografie
+
+l.
+
+~
+
+- } ¥
+
+Bodea,S.. - Geometric  descriptiva, Editura  Risoprint, Cluj-Napoca, 2006,
+http://mecanica.utcluj.ro/cursun.html.
+
+Calin, O.. Serban. R. — Bazele graficii asistate de calculator, Editura Victor, Bucuresti, 2019
+Popescu. T. V.— Geometne descnptiva. Editura Universitana, Craiova, 2004
+
+Sinnon, [. - AutoCAD 2011 pentru mginert, Editura Teora Bucuresti, 201! 1
+
+Yorik van Havre and FreeCAD community - <A FreeCAD manual,
+201 7( https www. githook.com/ book! yorikvanhavre/a-freecad-manual_pdf)
+
+www.autodesk.com
+
+www.freecadweb.org
+
+Grafica asistata de calculator — consideratii generale
+Figura 3 Proiectia ortogonala
+
+Din punctul A din spatiu se va trasa o drepta perpendiculara pe planul oarecare [P|. Acesta
+dreapta intersecteaza planul in punctul {a}. Conform axiomei matematice referitoare la proprietatile
+dreptelor perpendiculare si anume ca printr-un punct se poate trasa o singura perpendicular sI
+analizand figura 3 se observa ca unui punct oarecare A din spatiu situat pe o dreapta_ ii corespunde
+
+© proiectie ortogonala unica {a}. Reciproca nu este valabilé deoarece proiectiei {a} din plan fi poate
+
+corespunde o infinitate de puncte A;...A, toate situate pe aceiasi perpendiculara . In concluzie pentru
+
+a reprezenta In mod exact un punct in spa{iu sunt necesare mai multe date referitoare la pozijionarea
+
+sa in raport cu un plan.
+
+ 
+©  GAC2
+
+abelul | Variatiasemnelor coordonatelor descriptive in spatiul dublu ortogona
+
+ 
+
+Diedrul
+
+Coordonata
+
+ 
+
+Descriptiva
+
+ 
+
+(denumire-axa corespunzatoare )
+
+_Departarea
+
+De subliniat faptul ca functie de pozitionarea punctelor in cele patru diedre semnele celor
+
+douad coordonate descriptive — cota si departarea variaza.
+
+ 
+doua coordonate descriptive — cota si departarea variaza.
+Epura punctului in spatiul dublu ortogonal
+
+Pentru a reprezenta un punct din spatiu in plan se va utiliza conceptul intalnit in literatura de
+specialitate sub denumirea de epura sau reprezentare in epurad. Epura permite reprezentarea
+
+punctului din spatiul dublu ortogonal in plan prin intermediul principulor si teoriilor dezvoltate de
+
+geometria descriptiva. Figura 3 prezintaé epura asociataé punctului A pozifionat in diedrul | din
+
+sistemul dublu ortogonal de proiectie.
+
+ 
+DEPART AREA
+
+[H)
+
+ 
+Figura 3 Epura punctului A
+
+Epura punctului A prezentata in figura 3 se ob{ine prin rotirea planului orizontal, in sens
+
+invers trigonometric cu 90° pana la suprapunerea acestuia peste planul vertical [V] . Planul vertical
+
+ 
+
+este considerat a fi intr-o pozitie fixd. Axa din diedrul de proiectie | se onserva ca devine axa
+
+comuna planelor [H] s1 [V].
+90°
+
+DH
+ 
+ 
+
+90°
+
+: rI2}
+90
+= __—___._ &
+omer 4
+Dill C
+Departarea 
+Cc
+
+LV] Cota 
+ 
+ 
+
+, (H1)
+' 90°
+ 
+
+Figura 6b Epura punctului in diedrul IV
+
+Dubla proiectie ortogonala a punctului A permite stabilirea_ relatiei spatiu-plan ce se
+realizeaza intre elementele din spatiul bidimensional, punctul A si reprezentarea plana a acestuia,
+respectiv proiectiile sale orizontala {a} si verticala {a'}. Astfel punctul A este definit numai prin de
+proicctiile sale pe cele doua plane orizontal si vertical. Asadar, prin dubla proicctie ortogonala a
+
+punctului, se stabileste o corespondenta biunivoca intre punctul din spatiu indiferent de pozitionarea
+ 
+
+in diedre si proiectiule sale pe planele de proiectie. Se poate concluziona ca un punct din spatiul
+
+dublu ortogonal, spre exemplu punctual A este caracterizat de urmatoarele elemente: coordonatele
+punctului {ax, ay , az} $1 proiectile corespunzatoare a (proiectia orizontala) si a’ (proiectia verticala).
+
+In mod similar prin rotirea prin rotirea planului orizontal, in sens invers trigonometric cu
+90°, pastrarea fixd a planului vertical si pe baza semnelor matematice de plus (+) si minus ( — )
+asociate sensurilor axelor repectiv se ob{ine epura pentru puncte situate in diedrul Il — punctul B,
+
+diedrul II — punctul C si diedrul IV pentru punctul E.
+ 
+
+ 
+  
+
+[Hi], [V]
+
+Uepartarea
+
+  
+      
+ 
+
+Cota
+
+Figura 6b Epura punctului in diedrul IV
+
+Dubla proiectie ortogonalé a punctului A permite stabilirea_ relatiei spatiu-plan ce se
+realizeaza intre elementele din spatiul bidimensional, punctul A si reprezentarea plana a acestuia,
+respectiv proiectule sale orizontala {a} si verticala {a'}. Astfel punctul A este definit numai prin de
+proiectitle sale pe cele douad plane orizontal 51 vertical. Asadar, prin dubla proicctie ortogonala a
+
+- “ - , 4 =
+. i ee Sian a - Sleantaeleiaté ist fT) i fe) et: 1 y 1 aiia ah ata : : q ale tle
+Elemente de reprezentare a punctelor in spatiu
+
+Pentru a reprezenta un corp sau un obiect din spatiu pe un plan de proiectie, trebuie sa il
+incadram conform standardelor din literatura de specialitate (Gheorghiu & colectiv, 2003; Popescu,
+2004) intr-un sistem de referintéa denumit sistem de proiectie. Conceptul de sistem de proiectie a fost
+inifiat introdus de matematicianul Gaspar Monge si in unele lucrari este cunoscut sub numele de
+coordonate Monge sau sistem Monge. Astfel Monge a definit initial un sistem de proiectie ortogonal
+format de doua plane de proiectie reciproc perpendicular $i anume planul de proiectie orizontal [H]
+si planul de proiectie vertical [V] care se intersecteaz4 dupa semiaxa Ox. Ulterior acest sistem
+devine format din trei plane de proiectie $i anume planul de proiectie orizontal [H], planul de
+proiectie vertical [V]si panul lateral [L] reciproc perpediculare. Un alt concept utilizat de literatura
+de specialitate (Bodea,2006; Popescu, 2004) se refera la proiectia ortogonala sau perpendiculara.
+Astfel proiectia ortogonala este metoda de proiectie in care directia de proiectie este perpendiculara
+
+pe planul de proiectie.
+Mietode de
+reprezentare
+
+Sistemul dublu
+
+ortogonal
+
+Doud coordonate
+descriptive
+
+Siste mul triplu
+ortogonal
+
+Trei coordonate
+descriptive
+
+ 
+ 
+Initial in reprezentarile grafice s-a considerat spatiului divizibil in patru zone sau domeniu
+
+denumite diedre. Acestea sunt notate cu cifre romane de la | la IV in sens trigonometric. Astfel un
+
+diedru este unghiul format intre doua plane care se intersecteaza sau este considerat a fi un domeniu
+
+ 
+
+determinat de doua semiplane marginite de dreapta de intersectie (Popescu, 2004). Reprezentarea
+punctului in sistemul dublu ortogonal are la baza proiectia paralel perpendicular (ortogonala)
+realizata pe doua plane de proiectie perpendiculare intre ele: planul orizontal [H] si planul vertical
+[V]. In concluzie un punct reprezentat in spatiul dublu ortogonal va fi determinat prin doua proicctii
+sl anume proiectia vertical si proiectia orizontala.
+
+Figura 2 prezinta divizarea spatiului in patru diedre precum $1 pozitionarea spatiala a patru
+
+puncte oarecare A, B, C si E in aceste domenn.. Planele orizontal [H] si vertical [V] se pot impart la
+randul lor in patru semiplane infinite $i anume:
+
+[H2] —semiplanul onzontal posterior situat in spatele planului vertical.
+{ V1] —semuplanul vertical superior situat deasupra planului orizontal.
+[V2] - semiplanul vertical inferior situat sub planul orizontal.
+(H1]—semiplanul orizontal anterior situat in fata planului vertical.
+
+Astfel se pot face urmatoarele observatii analizand figura 2:
+Astfel se pot face urmatoarele observatii analizand figura 2:
+Punctul A apartine diedrului |, acest diedru fiind delimitat de semiplanele [H1] si [ V1].
+Punctul B apartine diedrului II, acest diedru fiind delimitat de semiplanele [H2] si [ V1].
+Punctul C apartine diedrului III, acest diedru fiind delimitat de semiplanele [H2] si [V2].
+Punctul E apartine diedrului IV, acest diedru fiind delimitat de semiplanele [H1] si [ V2].
+ 
+
+Figura 2 Divizarea spatiului in diedre
+Un punct in spatiul dublu ortogonal este caracterizat prin doua coordonate descriptive
+denumite in literatura de specialitate cota si departare. Astfel coordonatele punctului pozitionat in
+sistemul dublu ortogonal sunt cota si departarca. Cota se defincste ca fiind distanta de la un punct
+din spatiu la planul orizontal [H]. Departarea reprezinta distanta de la un punctul din spatiu — la
+planul vertical [V]. Se poate concluziona ca cota se masoara pe axa iar departarea pe axa . Tabelul
+
+| prezinté semnele associate celor doud coordonate descriptive in raport cu diedrul in care este
+b"b
+
+1 Gy)
+Figura 2 Epura generala- puncte in plane bisectoare
+
+Analizind epura generald a punctelor situate in plane bisectoare se observa ci in doud
+reprezentari se suprapun proiectiile si anume pentru punctele situate in diedrele doi si patru iar in
+celelealte doud pozitia proiectiilor este egal depdrtata faté de semiaxa . Se observa de asemenea ci
+planelor de proiecte au proprictét ascmAna&toare cu ale bisectoare: unghiului din geometna plana.
+
+Se observa analizand valorile coordonatelor c4 punctele situate pe planul de proiectie [H]
+indiferent de semuplanul in carea se aflé au cota egala cu zero restul coordonatelor descriptive find
+diferit de zero. In acelasi timp punctele situate pe planul de proiectie [VW] indiferentde semiplanul in
+care sunt pozitionate au depdrtarea egala cu zero celelalte coordonate deseriptive find diferite de
+
+zero,
+Puncte situate pe semiplanele de provectie
+
+Pentru a stabili propnetétile punctelor situate pe plane de proiectic se vor considera
+urmdtoarele puncte astfel pozijionate (figura 4):
+- A apartine semiplanul onzontal anterior [H!] ;
+- B apartine semiplanului vertical superior [V1 };
+- C apartine semiplanului onzontal posterior [H2] ;
+
+- E apartine semiplanului vertical inferior [V2].
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+de zero. In acelasi timp punctele situate pe planul de proiectie [V] indiferent de sen
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figura 5 Epura generala a punctelor situate pe semiplanele de protectie
+
+ 
+Pont partculere ale pumcieiee we qpacul dehdu oringeemal
+
+Ppura genevald a celor poru pete APLC gp 2) oe in mfentie este prevencaia
+micural in Ligure Lb.
+
+ 
+
+Ponca punctclor den spel debho ortocomel pc uo aoe plan poek pomaa v scuc de
+propricta speciikce weoctife cpurce Asflel mw lost whom dowd salu} peticuler p anne
+
+puncte sifaahe pe eceplancle de powertic p pumetc em@uetre pe pleecle biecctoere, Planciele
+baste: ipet decdick in doucom spafeke ogek dooumet: octets (Popescu, 2004). Puxctele
+
+vitware in plane hisectawre au depdetares egal cu cota | erates de qpeculiote, a identifico dowd
+
+Qlane hisectoare 4 angen
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+Figura la
+
+b
+. b a +2
+| (-y)
+O
+a..
+On Cu b,.
+‘ a
+
+e a “
+
+o (-z)
+Figura |.b Epura general din spatul dublu ortogonal
+
+Pozitionarca punctclor dim spatvul dublu ortogonal pe un anune plan poate gencra o sence de
+proprietiti specifice asociate epure:. Astfel au fost identificate doud situatii particulare 51 anume
+
+puncte situate pe semiplanele de provectic 91 puncte situate pe planele bisectoare. Planelele
+
+bisectoare impart dicdrele in domenu spatiale egale denumiute octanie (Popescu, 2004). Punctele
+
+situate in plane bisectoare au depdrtarea egald cu cota. Literatura de specialitate a identificat doud
+
+plane bisectoare 31 anume:
+
+planul! bisector unu [B ;) divide diedrele unu 31 tre
+
+ 
+planul bisector unu [B ;] divide diedrele unu §1 tre1
+
+planul bisector do: |B >| divide dredrele doi 51 patru
+
+ 
+ 
+ 
+
+Figura | Planele bisectoare
+Pentru a mentifica propretajile punctelor situate pe plane bisectoare se se considera urmdatoarele
+puncte:
+- A apartine diedrulwi I 51 planului bisector unu:
+-B apartine dredrului [] 5: planului bisector doi;
+- C apartine diedrulw: [II $1 planulu bisector unu;
+-D apartine diedrulu [V 1 planului bisector doi.
+
+Figura 2 va prezenta epura generald corespunzdlore acestora.
+
+ 
+3/23/2020 UNIVERSITATEA HYPERION DIN BUCURESTI
+
+ 
+
+Reprezentarea punctului in proiectia
+dublu ortogonala
+
+Pentru a obtine reprezentarea in
+epura a unui punct A situat in
+diedrul |, vom roti planul orizontal
+[H] in jurul axei Ox pana cand
+acest plan se suprapune peste
+planul vertical [V].
+
+ 
+ 
+ 
+
+Triedrul/ I 0 Ww iv VW Wi Vil
+Coordonata
+
+ 
+ 
+
+ro ~~ & Sm ag | 12:39 PM
+: A@ bad f ENG anyon’ e
+
+ 
+ 
+© = B® __LABoRATOR 2 GAC paf x +
+
+CG WM O File | C:/Users/alma1/Downloads/LABORATOR%202%20GAC.pdf a «| & viens @
+
+= Snes . " - + ” 8 {B Page view A® Read aloud VY Draw + & Highlight ~ € Erase o ? bd
+
+12:24 PM
+
+AQ Em ANG sooo
+
+ 
+trigonometric. Se considera de catre literatura de specialitate ci in triedrul | toate coordonatele
+descriptive sunt pozitive. Astfel reprezentarea unui punct in sistemul triplu ortogonal are la baza
+proiectia paralel ortogonala dezvoltatéa pe cele trei plane de proiectie concurente si reciproc
+perpendiculare si anume: planul orizontal [H] , planul vertical [V] si planul lateral [L].
+
+Figura | prezinta impartirea spatiului in triedre si numerotarea acestora in sens trigonometric
+utilizand cifre latine de la I la VIII. Coordonatele descriptive asociate unui punct oarecare din
+sistemul triplu ortogonal sunt: cota, departarea $i abscisa. Cota reprezinta distanta de la un punct din
+spatiu la planul orizontal [H] si se poate masura pe axa . Departarea este distanta de la un punctul
+din spatiu la planul vertical [V] si se masoaraé pe axa . Abscisa se defineste ca fiind distanta de
+
+la un punctul din spatiu la planul lateral [L] si se poate mdsura pe axa .
+ 
+Figura | Impartirea spatiului in triedre
+
+Se considera de catre literatura de specialitate cA in triedrul I toate coordonatele descriptive
+
+sunt pozitive. Astfel reprezentarea unui punct in sistemul triplu ortogonal are la baza proiectia
+paralel ortogonala dezvoltata pe cele trei plane de proiectie concurente $i reciproc perpendiculare $1
+anume: planul orizontal [H], planul vertical [V] si planul lateral [L].
+
+Coordonatele descriptive asociate unui punct oarecare din sistemul triplu ortogonal sunt:
+
+cota, departarea $i abscisa.
+
+~ Cota reprezinta distanta de la un punct din spatiu la planul orizontal [H] si se poate
+cota, departarea 31 abscisa.
+
+~ Cota reprezinta distanta de la un punct din spatiu la planul orizontal [H] si se poate
+masura pe axa .
+
+~ Deparurea este distanta de la un punctul din spajiu la planul vertical [VJ] si se
+masoara pe axa .
+
+“ Abscisa se defineste ca fitnd distanta de Ja un punctul dm spatula planul lateral
+
+[L] si se poate masura pe axa .
+Povzitionarea punctelor intr-unul din cele opt triedre este caracterrzata de vanatia semnelor
+coordonatelor descriptive in raport cu triedrele in care se afl si este prezentata in tabelul 1. In figura
+
+| sunt deasemenea ilustrai semnele pentru cele tre; axe de proiectic
+
+Tabelul | Vanatiasemnelor coordonatelor descriptive
+Tabelul | Variatiasemnelor coordonatelor descriptive
+
+EAT ;
+
+i yl, Pe
+Breet
+ee Eee ee
+
+      
+
+Triedrul
+Coordonata
+Descriptiva
+(denumire-axa
+corespunzatoare)
+
+ 
+      
+
+      
+     
+   
+ 
+Figura 2 Punctul A pozitional in tnedrul |
+Astfel se poate observa in figura 2 ca ccle tren proiecpi ale punctului A din spatiu in raport
+cu cele tret plane de proicctie sunt:
+-proiectia onzontala a punctului A pe planul orizontal de prorecte [H] notaté cu {a};
+-proicctia verticala a punctului A pe planul vertical de proiectic [V] notata cu {a‘};
+- proiectia lateralaé a punctului A pe planul lateral de proieetie [L] notata cu {a"’}.
+
+ 
+
+se pot ilustra urméatoarcle  aspecte:
+~proiectia determind imagines sau prorecta {a°} pe planul vertical de proiectie [V] pentru punctul
+A:
+- proiectia determina imaginea sau provectia | a }pe planul ormzontal [H] de proiectic pentru punctul
+A;
+-proiectia determina imagimea sau proiectia ja’’} pe planul lateral de proiectie |1.| pentru punctul
+A,
+
+E-pura punctulu in pozijonat in sistemul triplu ortogonal
+
+Epura punctului in spatiul tiplu ortogonal este reprezentare pland a obiectelor din spafiu,
+proicctate ortogonal pe planele de proiectic onzontal, vertical ¢i lateral utilizind numai axecle de
+proiectic (Popescu, 2004). Epura punctului poate fi considcraté ca fiind treccrea de la imaginca
+
+* i Pa es a ee foe T Fe | im) a7 = we at I
+proicctic (Popescu, 2004). Epura punctului poate fi considerata ca find trecerea de la imaginea
+spatiald la o reprezentare plana. Astfel dezvoltarea epure: pentru un punct aflat in primul tnedru se
+realizeaza intr-o prima etapa pron rotirea planului onzontal [H] in sens mvers tngonometric in jurul
+axei pana la suprapunerea acestuia peste planul vertical [V] conform figurii 2. In etapa a doua va fi
+rotuil planul lateral [L] in sens tigonometric in jurul axci pana la suprapuncrea acestuia peste planul
+
+vertical [V]. Astfel rezulta figura 3 de descompunere a tnedrului I.
+ 
+Figura 3 Descompunerea tnedrulu | de proiectic
+
+ 
+
+Axa sc suprapune astfcl, prima dal4 pesic axa , iar a doua oara pestc axa , fund este intalmita
+in literatura de specialitate (Gheorghiu & colectiv. 2003: Popescu, 2004) sub denumirea de ; sau *. De
+ascemenea, se observa ca dim punct de vedere al whlizam acesic: denumin coordonata {ay} va avea in
+cpuri doud puncte corespunzdtoare $1 anume {a, } pe axa gs! {a,)} pe axa ;, ob{inute prin rotirca
+planului lateral [L] in sens trigonometric. Arcul de cere cu raza egalé cu depirtarea si cu centrul in
+originca sistemului de axe {O} determima proicctia latcrald notata astfcl {a } 51 pozitionaté pe
+planul lateral [1]. In continuarea lucrarii se vor utiliza pentru axele de coordonate numai notatiile ,
+(sau 1) $1 precum si semnele malematice corepunzaloare tnedrului parcurs. Astfel se obtine epura
+
+punctulu: A conform figuru 4.
+
+ 
+
+Figura 4 Epura punctului A din tiedrul |
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+ 
+
+ 
+
+ 
+
+Figura 3 Descompunerea triedrului I de proiecti
+Figura 4 Epura punctului A din triedrul |
+
+  
+   
+  
+  
+
+Analizand figura 4 se observa ca realizarea epurei depinde atat de cele trei plane de proiecti
+H], [VW], [L] utilizate cat si de cele trei coordonate descriptive $i anume abscisa, cota $i depi
+ealizarea epurei din figura 4 se bazeaz4 conform literaturii de specialitate pe metoda rabaterii sa
+otirit planelor de proiectie din sistemul triplu ortogonal. Metoda consta in rotirea unui plan oarecz
+n jurul uneia dintre axecle sistemului de coordonate Oxyz fiind dezvoltaté in doud ectape anterio
+Figura 3.Tipuri de drepte
+
+O categorie speciala de drepte o reprezinta dreptele paralele cu planele sistemulu
+
+plu ortogonal de proiectie . Dreptele paralele cu cele trei plane de proiectie sunt:
+
+e Dreapta paralela cu planul lateral [H] este denumita de literatura de specialitat
+dreapta de nivel sau dreapta orizontala .
+
+e Dreapta paralela cu planul vertical |V] este denumita de literatura de specialitat
+
+Grafica asistaté de calculator
+
+dreapta de front sau dreapta frontala.
+e Dreapta paralela cu planul vertical [L] este denumita de literatura de specialitate
+
+dreapta de profil .
+
+ 
+
+© alta categorie o reprezinté dreptele perpendiculare pe planele de proiectie. Aceste:
+Figura | Dreapta paralcla cu planul |H}
+
+ 
+Figura | Dreapta paralela cu planul [H]
+
+ 
+
+Figura 2 Epura dreaptei paralele cu planul [H]
+
+ 
+6 GAC- An! - curs
+
+Analizand figurile anterioare si pe baza conceptelor geometriei descriptive se pc
+identifica o serie de proprietati asociate acestui tip de dreapta si anume:
+e dreapta D este paralela cu planul orizontal [H] si nu are urma orizontala.
+e dreapta D are doar doud urme urmé laterala L( 1, 1°,1"*) si urma verticala V(v,v’,v"’);
+
+e toate punctele situate pe dreapta D au acciasi cota;
+
+e segmentul de dreapté AB se proiecteazd in marime reala pe planul orizontal [H]
+deformat pe celelalte doua plane de proiectie in functie de valoarea unghiului de inclinare
+dreptei fata de celelalte plane de proiectie.
+
+Figurile 3 si 4 prezinta in spatiu $i in epura o dreapta paralela cu planul vertical. Dreapt
+este definita de doud puncte E si F.
+
+ 
+segmentul de dreapta AB se proiecteaza in marime reala pe planul
+ormat pe celelalte doua plane de proiectie in functie de valoarea unghiu
+
+ptei fata de celelalte plane de proiectie.
+
+igurile 3 si 4 prezinta in spatiu si in epura o dreapta paralela cu planul
+
+r definita de doua puncte E si F.
+
+ 
+Figura 3 Dreapta paralela cu planul vertical
+
+ 
+
+Figura 4 Epura dreaptei paralela cu planul vertical
+ 
+
+6 GAC- An I - curs
+
+Analizand figurile anterioare se pot stabili pe baza conceptelor geometriei descriptive
+o serie de proprietati specifice acestul tip de dreapta $1 anume:
+
+e dreapta D este paralela cu planul vertical [V] 51 nu are urma orizontala;
+
+* toate punctele situate pe dreapta D au aceiasi departare;
+¢ dreapta D are doar doud urme urmé lateralé L(1,!’,"1’") si urma orizontala H(h,h’,h’’);
+
+¢ segmentul de dreapté FE se proiectezd in marime reala pe planul vertical [V] si diferit in
+functie de valoarea unghiului de inclinare al segmentului fata de celelalte doud plane de
+protectie,
+
+Figurile 5 s1 6 prezinti in spajiu si in epuri o dreaptd paraleld cu planul lateral.
+
+Dreapta este definita de doud puncte caractenstice | $1 G.
+
+ 
+ 
+
+Figura 4 Epura dreaptei paralela cu planul vertical
+
+ 
+Elemente introductive:
+¥ Conceptul matematic de dreapta este asociat unei linii drepte, de lungime
+infinita ce se poate definita in mod exact atunci cand se cunosc doua puncte ale
+sale.
+¥  Doua puncte definesc un segment de dreaptéa. Spre exemplu pentru doua
+puncte A si B ce apartin unei drepte din spatiu notarea segmentului
+corespunzator acestora este AB
+
+Y Notarea unei drepte se realizeaza utilizand literele specifice alfabeltului latin
+
+sau alfabetului grecesc A sau chiar numele segmentului definit .
+
+Daca se considera o dreapta oarecare D pozitionata in spatiul dublu ortogonal aceasta
+ta doua proiectii orizontala si verticala corespunzatoare celor doua plane de proicctie si
+
+nota
+— di reaprta tm spatius
+—- Frorwosoiectia orizoritala a odreetei © cir
+- pmrriee-ctia werticaAal A a Are pate i MH etinm
+
+- pPremiectia lateral A a dre pote i Mm tine =
+
+a”, = aie
+
+a4 — SO orm Smt Tm Sspatius
+a roroeiectia ori zontal &
+ae S* - proiect xa verticals
+
+cz &*"* —-proiectia laterala
+
+ 
+O dreapta oarecare pozitionata in spatiul triplu§ ortogonal prezinta t
+
+anume proiectia orizontala, proiectia verticala $1 cea laterala si se va nota astfe
+
+Se observa din notatie ordinea celor trei proiectu ale dreptei.
+
+Un alt concept asociat unci drepte este acela de urma. Urma se def
+punctul de intersectie al unei drepte cu un plan. In spatiul dublu ortogonal o d
+doua urme si anume urma orizontala si urma vertical corepunzatoare celor c¢
+proiectic. Punctele in care o dreapta din spatiul triplu ortogonal intersecteaza ce
+de proiectie orizontal [H], vertical [V] si lateral [L] se numesc urmele dreptei (P
+Astfel o dreapta oarecare poate intersecta cele trei plane de proiectie, deci p
+urme : orizontala, verticala si laterala. Urmele unei drepte D din spatiu su
+
+functie de planul de proiectie pe care il intersecteaza. Astfel exista :
+
+ 
+CONCEPTE GENERALE UTILIZATE IN PROIECTAREA UNEI DREPTE
+
+Elemente introductive:
+
+¥ Conceptul matematic de dreapta este asociat unei linii drepte, de |
+
+infinita ce se poate definita in mod exact atunci cand se cunosc doua pu
+sale.
+¥ Doua puncte definesc un segment de dreapta. Spre exemplu pent
+
+puncte A si B ce apartin unei drepte din spatiu notarea seg
+
+corespunzator acestora este AS
+
+¥ Notarea unei drepte se realizeaza utilizand literele specifice alfabeltul
+
+sau alfabetului grecesc A sau chiar numele segmentului definit .
+Daca se considera o dreapta oarecare D pozitionata in spatiul dublu ortogonal a
+h doua proiectii orizontala si verticala corespunzatoare celor doua plane de proie
+
+pta
+
+ 
+O dreapté oarecare pozitionat4 in spajiul tiplu ortogonal prezinta trei proiectu $1
+
+anume proiectia onzontala, proiectia verticala $1 cea laterala $i se va nota astfel:
+
+=
+
+—
+
+Se observa din notatie ordinca cclor trei proiectii ale dreptei.
+
+Un alt concept asociat unei drepte este acela de urm4. Urma se defineste ca fiind
+punctul de intersectic al unci drepte cu un plan. In spatiul dublu ortogonal o dreapti prezinta
+doud urme si anume urma orzontalé si urmé vertical corepunzitoare cclor doud plane de
+proicctic. Punctele in care o dreapta din spapul triplu ortogonal intersecteazi ocle tre) planele
+de proicctie orizontal [H]. vertical [V] si lateral [L] se numese urmele dreptei (Popescu,2004).
+Astfel o dreaptd oarecare poate mtersecta cele trei plane de proicctic, deci poate avea trei
+urme : orizontalé, verticalé si lateralé. Urmele une: drepte D din spatiu sunt denumite in
+functic de planul de protectic pe care il imtersecteaz’, Astfel cxista :
+
+-urma orizontald notaté cu {H)} reprezintd punctul de intersectic al drepte: D cu plamu!
+
+ 
+Q
+
+Un alt concept asociat unei drepte este acela de urma. Urma se defineste ca find
+
+punctul de intersectie al unei drepte cu un plan. In spatiul dublu ortogonal o dreapta prezinta
+doud urme si anume urma orizontala si urm4 vertical corepunzatoare celor doud plane de
+proiectie. Punctele in care o dreapta din spatiul triplu ortogonal intersecteaza cele trei planele
+de protectie orizontal |H}, vertical | V| 51 lateral |L] se numesc urmele dreptei (Popescu,2004).
+Astfel o dreaptaé oarecare poate intersecta cele tre: plane de protectie, deci poate avea tre!
+urme : orizontala, verticala si laterala. Urmele unei drepte D din spatiu sunt denumite in
+functie de planul de proiectie pe care il intersecteaza. Astfel exista :
+
+-urma orizontala notata cu {H} reprezinta punctul de mmitersectie al drepte: D cu planul
+
+4. Grafica asistata de calculator
+
+ 
+4. Grafica asistaté de calculator
+
+orizontal;
+-urma verticalé notata cu {V} reprezinté punctul de intersectie al dreptei D cu planul vertical;
+-urma laterala notata cu {L} reprezinta punctul de intersectie al dreptei D cu planul lateral.
+
+Se observa ca urmele unei drepte sunt puncte situate in planele de proiectie $1 preiau
+din proprietatile acestora.
+Existé in literatura de specialitate diferite clasificdri si tipologii asociate dreptelor. Figura 3
+
+grupeaza o seric dintre acestea.
+
+« Dreapta paralelé cu
+
+_ Dreapta parale la cu |
+
+ 
+
+-_ Dreapta paralela cu
+
+ 
+
+Dreapta paralela cu
+planul (H)
+
+ 
+
+ 
+
+ 
+
+ 
+
+' perpendicularé pe
+planul [L)
+
+ 
+ 
+
+Figura 5 Dreapta paralela cu planul lateral
+=
+
+Figura 5 Dreapta paralela cu planul lateral
+é
+
+ 
+
+ 
+
+ 
+
+ 
+Figura 6 Epura dreaptei paralele cu planul lateral
+Pe baza conceptelor geometriei descriptive si analizand figurile 5 si 6 se pot
+
+serie de proprietati asociate acestui tip de dreapta $1 anume:
+e dreapta D este paralela cu planul lateral [L] si nu are urma laterala;
+
+e toate punctele situate pe dreapta D au acciasi abscisa:
+
+6 GAC- An I - curs
+
+e dreapta D are doar doud urme urma verticala V (v’,v’,v’’) si urma orizontala L (1,1
+
+e segmentul de dreapté G/ se proiectez4 in marime reala pe planul lateral [L] si
+
+ 
+
+i]
+igura O Epura dreaptei paralele cu planu
+
+Pe baza conceptelor geometrici descriptive si analizand figurile 5 $i 6 se pot stabili a
+serie de proprietati asociate acestui tip de dreapta s1 anume:
+e dreapta D este paralela cu planul lateral [L] si nu are urma laterala;
+
+¢ toate punctele situate pe dreapta D au aceiasi abscisa:
+
+6 GAC- An I - curs
+
+e dreapta D are doar doud urme urmé verticala V (v’,v’,v’*) $1 urma onzontala L (1,1°,1"*);
+
+e segmentul de dreapta G/ se proiectezd in marime reala pe planul lateral [L] si diferit ix
+
+functie de valoarea unghiului de inclinare fata de celelalte doud plane de proiectic.
+
+DREPTE PERPENDICULARE PE PLANELE DE PROIECTIE
+
+Literatura de specialitate identifica dreptele perpendiculare pe unul dintre cele trei plane de
+
+ 
+6 GAC- An | - curs
+
+e dreapta D are doar doud urme urma verticala V (v*,v’,v**) si urma orizontala L (1,1°,1°*);
+
+e segmentul de dreapta G/ se proiectez4 in marime reala pe planul lateral [L] si diferit in
+
+functie de valoarea unghiului de inclinare fata de celelalte dowa plane de proiectie.
+
+DREPTE PERPENDICULARE PE PLANELE DE PROITECTIE
+
+Literatura de specialitate identifica dreptele perpendiculare pe unul dintre cele trei plane de
+
+proiectie astfel:
+
+ 
+DREPTE PERPENDICULARE PE PLANELE DE PROITECTIE
+
+Literatura de specialitate identifica dreptele perpendiculare pe unul dintre cele trei |
+proiectie astfel:
+
+a Dreapta perpendiculara pe planul orizontal [H] denumita de literatura de spe
+si dreapta verticald ce este simultan paralecla cu planele vertical [V] si lateral [L].
+
+° Dreapta perpendiculara pe planul vertical [V] denumuta de literatura de speci:
+dreapta de capat ce este simultan paralela cu planele orizontal [H] si lateral [L].
+
+* Dreapta perpendiculara pe planul lateral [L] denumita de literatura de specif
+dreapta fronto-orizontala ce este simultan paralcla cu plancle orizontal [H] si vertical
+
+Reprezentarnile grafice urmatoare prezinta in spatiu $1 in epura o dreapta perpendicula
+
+planul onzontal de proiectie 51 este definita de punctele A 51 B.
+ 
+
+Figura 7 Dreapta perpendiculara pe planul [H]
+ 
+
+‘igura 8 Epura dreptei perpendiculare pe planul orizo
+e dreapta D nu are doud urme si anume urma verticala si urma laterala;
+
+e segmentul de dreapta AB se proiecteza in marime reala pe planele de proiectie lateral
+s1 vertical [V] si intr-un singur punct ce se suprapune cu urma onzontala H (h,h’,h”’) f
+planul orizontal [H] si cu proiectia orizontala a dreptei D.
+
+Figurile 9 si 10 prezinta in spatiu si in epura o dreapta perpendiculara D pe planul vertic
+de proiectie 51 este definita de punctele E si F, avand pentru toate punctele ce o define:
+
+abscisele $i cotele egale.
+
+Figura 9 Dreapta perpendiculara pe planul vertical
+
+ 
+ 
+
+Figura 9 Dreapta perpendiculara pe planul vert
+ 
+
+ 
+
+Figura 10 Epura dreptei perpendiculare pe planul
+Figura 10 Epura dreptei perpendiculare pe planul vertical
+
+Analizand figurile anterioare se pot stabili o serie de caracteristici asociate acestui tip
+de dreapta $1 anume:
+e dreapta D_ este perpendicularé pe planul vertical [V] si are numai urmé vertical
+Viv.v’.v"");
+e dreapta D nu are doud urme si anume urma orizontala si urma laterala;
+¢ toate punctele situate pe dreapta D au aceiasi cota si abscisa;
+e segmentul de dreapta EF se proiectezd in marime reala pe planele de proiectie lateral [L]
+$1 orizontal [H] $1 intr-un singur punct suprapus atat peste urma verticald V(v,v’,v"") cat si pe
+
+proicctia verticald a dreptei D pe planul vertical [V].
+
+Figurile 11 si 12 prezintd in spatiu si in epurd o dreaptd perpendiculara D pe planul
+lateral de proiectie ce este definita de punctele G si I denumita de literatura de specialitate
+
+dreapt4 fronto-orizontala.
+
+ 
+ 
+
+ 
+ 
+
+Figura 12 Epura dreptei perpendiculare pe planul lateral
+onceptelor teoretice din geometria descriptiva si a
+
+reptel perpendiculare pe planul lateral se pot sta
+
+ute acestui tip de dreapta si anume:
+
+:
+Simaeteiarakla ¥) Ll | a a | TT
+Figura 12 Epura dreptei perpendiculare pe planul lateral
+Pe baza conceptclor tecoretice dm geometna descnptiva gi analizand figurile
+
+corespunzatoare dreptei perpendiculare pe planul lateral se pot stabili principalele
+caracteristici asociate acestui tip de dreapta si anume:
+e dreapta D este perpendiculara pe planul lateral [L] si are numai urma laterala L(1,I’,1"");
+apta D nu are doud urme si anume urma orizontala si urma verticala;
+B s. te punctele situate pe dreapta D au aceiasi cota si departare;
+¢ segmentul de dreapti G/ se proiectez4 in marime reali pe planele de proiectie vertical [V]
+
+ 
+
+$i orizontal [H] $i intr-un singur punct suprapus atat pe urma laterald L (1,]’,I°") cat si pe
+proiectia laterald a dreptei D pe planul lateral [L].
+PLANUL- ELEMENTE DE REPREZENTARE
+
+Planul este o forma geometrica importanta utilizata in reprezentarea obiectelor in spatiu.
+In geometria clasica un plan poate fi determinat prin urmatoarele elemente interconectate:
+treil puncte necoliniare
+doua drepte concurente
+doua drepte paralele
+dreapt4 $1 un punct extenor acestcia.
+
+Planul in geometnia descriptiva se noteaza utilizand parantezele drepte spre exemplu
+
+notatia [P] semnificd planul oarecare P (Dragulanescu si Tapu, 2004). In sistemul de
+
+proiectie triplu ortogonal sunt utilizate cele trei plane de proiectie si anume:
+e planul orizontal [H}
+e planul vertical |V]
+e planul lateral |L].
+Figura | prezinta cele tre: plane de proiectie anterior mentionate ce formeaza sistemul
+
+triplu ortogonal si un plan [A] pozitionat in mod alcatornu,
+
+ 
+In geometria descriptiva pentru a defini un plan se utilizezd un concept nou $i anume
+
+cel de urma a unui plan. Acest concept este similar cu cel definit la urma unei drepte. Astfel
+
+un plan oarecare |Q] se intersecteazi cu planele de proiectie dupa trei drepte particulare
+
+denumite urmele planului (Popescu, 2004).
+Astfel se definese urmele unui plan ca fiind dreptele de intersectie ale acestuia_ cu
+
+cele trei plane de proiectie orizontal [H], vertical [V] si lateral [L]. Aceste drepte de
+
+7 GAC - curs
+
+intersectie asociate fiecdrui plan de proiectie sunt denumite in raport cu planul pentru care se
+determina in cazul de fata [Q] asttel:
+- axa Qy = [Q] M [H] - urmé orizontalaé corespunzatoare planului orizontal si reprezinta
+
+dreapta de intersectie a planului [Q] cu planul onzontal [H];
+
+ 
+ 
+7 GAC - curs
+
+intersectic asociate fiecdru: plan de proiectie sunt denumiute in raport cu planul pentru care se
+determina in cazul de fata [Q] astfel:
+- axa Qn = [Q] 9 [H] - urma onizontala corespunzatoare planului orizontal si reprezinta
+dreapta de intersectie a planului [Q] cu planul onzontal [H);
+- axa Qvy = [Q] /O [V] - urmd verticald corespunzitoare planului vertical si reprezintd dreapta
+de intersectie a planului [Q] cu planul vertical [V)];
+-axa Qr= [Q] /M [L] - urma laterala corespunzitoare planului lateral si reprezinti dreapta de
+intersectie a planulu: [Q] cu planul lateral [L].
+
+Figura 2 prezint4 reprezentarea urmelor planului [Q] corespunzatoare celor trei plane
+
+de proiectie.
+
+ 
+
+ 
+Literatura de specialitate (Gheorghiu & colectiv, 2003; Popescu, 2004) a identi!
+
+alte tipuri de plane, reprezentari spatiale specifice precum si o serie de caracteristici a
+
+acestora. Figura | prezinta planul perpendicular pe planul orizontal [H].
+
+Figura | Planul perpendicular pe planul orizontal
+
+Figura 2 prezintaé schematic epura corespunzatoare precum $i cea a punctului A. P'
+A reprezinta un varf al unui triunghi pozitionat in planul [A] perpendicular pe
+
+orizontal.
+
+ 
+PLANE PERPENDICULARE PE PLANELE DE PROIECTIE
+
+Literatura de specialitate (Gheorghiu & colectiv, 2003; Popescu, 2004) a identificat si
+alte tipuni de plane, reprezentan spatiale specifice precum 51 0 serie de caracteristici asociate
+acestora. Figura | prezinta planul perpendicular pe planul orizontal [H].
+
+Figura | Planul perpendicular pe planul orizontal
+
+‘igura 2 prezinté schematic epura corespunzdtoare precum $i cea a punctului A. Punctul
+A reprezinté un varf al unui triunghi pozitionat in planul [A] perpendicular pe planul
+
+orizontal.
+
+ 
+Figura 3 Planul perpendicular pe planul vertical
+| 4 prezinta epura asociata planului [Q] precum si cea a punctului A. Pu
+
+un varf al unui dreptunghi pozitionat in planul [Q] perpendicular pe planul v
+
+ 
+
+ 
+
+ 
+
+Figura 4 Epura planului perpendicular pe planul vertical
+SGAC - curs
+
+Analizand reprezentarea spatial4 a planului perpendicular pe planul vertical [V] din
+figura 3 si utilizand conceptele din geometria descriptiva (Popescu, 2007) se pot observa
+urmatoarele proprietati:
+
+e planul [Q] prezinta toate cele trei urme orizontala si anume dreptele Qy -urma
+orizontala, Qy- urma verticala si Q,- urmé laterala;
+
+e urmele orizontala si laterald sunt perpendiculare pe planul [Q] ;
+
+¢ orice figura geometrica plana pozitionata in planul [Q] nu se poate proiecta in mdrime :
+
+real pe nici unul dintre cele trei de plane de proiectie;
+
+orice formd4 geometricé oarecare (un patrat, spre exemplu) — situat in planul [Q] se
+proiecteaza sub forma unui segment de dreapta ce apartine urmei  verticale si
+deformat pe celelalte doua plane de proiectie orizontal si: lateral.
+
+Figura 5 prezinta planul perpendicular pe planul lateral [L].
+
+ 
+Astfel se definese urmele unui plan ca fiind dreptele de intersectie ale acestuia cu
+
+cele tre: plane de proiectic orzontal [H], vertical [V] 51 lateral [L]. Aceste drepte de
+
+7 GAC - curs
+
+intersectic asociate fiecarum plan de prorectic sunt denumite in raport cu planul pentru care se
+determina in cazul de fata |Q) astfel:
+- axa Qu = [Q] © [H] - unmé onzontalé corespunzatoare planulwi onzontal $1 reprezinta
+
+dreapta de intersectic a planului [Q] cu planul onzontal {H];
+
+-axa Qv = [Q] M [V] - urma verticalé corespunzatoare planului vertical si reprezinta dreapta
+
+de intersectie a planului [Q] cu planul vertical ['V];
+- axa Qr= [Q] /O [L] - urma laterald corespunzitoare planului lateral si reprezinta dreapta de
+intersectie a planului [Q] cu planul lateral [L).
+
+Figura 2 prezinta reprezentarea urmelor planului [Q] corespunzatoare celor trei plane
+
+de proiectie.
+
+ 
+7 GAC - curs
+
+Pe baza principiilor geometriei in spatiu se poate observa faptul ca un plan paralel cu
+unul dintre cele trei plane de proiectic este perpendicular pe celelalte doua plane.
+
+PLANUL PARALEL CU PLANUL ORIZONTAL DE PROIECTIE
+Figura 3 prezinta in spatiul tnplu ortogonal planul [P|] paralel cu planul orizontal de
+proiectie [H]. In literatura de specialitate (Popescu, 2004) acest plan mai este cunoscut sub
+denumirea de plan de nivel. Punctele A, B si C sunt situate in planul [P1] 51 formeaza un
+
+triunghi. Figura 4 prezint4 epura corespunzatoare planului [P] ].
+
+      
+ 
+
+(ities aoe = oe
+#
+ 
+Figura 3 - Planul [P1] paralel cu planul orizontal de proiectie [H]
+
+ 
+
+Figura nr.4 — Epura planului [P1 |
+7 GAC - curs
+
+Analizand atat reprezentarea spatiald cat gi cca din cpura a planului paralel cu planul
+
+orizontal si pe baza principiilor teoretice ale gcometrici in spatiu sc pot observa urmatoarcele
+
+caracteristicl:
+
+planul de nivel are atat urma verticald cat si laterala drepte rezultate din intersectia
+planului [P1] cu planele de proiectie acelasi nume respectiv planele vertical [H] s1
+lateral [1];
+
+planul de nivel [P1] nu are urma orizontala;
+
+orice dreapta situata intr-un plan paralel cu planul orizontal are aceiasi cota;
+
+orice figura geometncd pland situaté in planul paralel cu planul orizontal se
+proiecteaza in adevarata m4rime pe planul [H] si deformat sub forma unor segmente
+de dreapta pe celelalte doua plane de proiectiec [V] si [L];
+
+triunghiul ABC situat in in planul paralel cu planul orizontal se proiecteaz4 in
+marnme realé pe planul onzontal sub forma Aabc gi deformat sub forma unor
+segmentelor de dreapté c’b'sic”b”.
+
+PLANUL PARALEL CU PLANUL VERTICAL DE PROIECTIE [V]
+Figura nr. 6 - Epura planului [P2]
+
+Analizand atat reprezentarea spatial4 cat 51 cea din epura a planului paralel cu planul
+
+vertical [V] si: utilizad principulor teoretice ale geometrie: in spaftiu se pot observa
+
+urmdatoarele caracteristici:
+
+planul paralel cu planul vertical are atat urm4 orizontala cat s1 laterali drepte rezultate
+din intersectia planului [P2] cu planele de proiectie acelasi nume respectiv planele
+orizontal [H] s: lateral [L];
+
+planul [P2] nu are urmé verticala;
+
+toate punctele unei drepte situate intr-un plan paralel cu planul vertical au aceiasi
+depdrtare:
+
+orice figura geometrica plana situat4 in planul paralel cu planul vertical se protecteaza
+in adevarata marime pe planul [V] 51 deformat sub forma unor segmente de dreapta pe
+celelalte douad plane de proiectie [11] si [L];
+
+triunghiul RTD situat in planul paralel cu planul orizontal se proiecteaz4i in mdrime
+
+reald pe planul vertical [V] sub forma triunghiului Art'’d si deformat sub forma unor
+
+segmentelor de dreapta rd si r"d” .
+
+PLANUL PARALEL CU PLANUL VERTICAL DE PROIECTIE [L]
+
+ 
+h >
+
+ 
+¥1
+
+ 
+
+Figura 8 —Epura Planului [P3]
+
+Analizand atat reprezentarea spatial cat si cea din epurd a planului paralel cu planul
+lateral [L] si pe baza conceptelor din geometria spatiald se pot observa urmatoarele
+proprietafi:
+
+e planul [P3] are atat urma orizontala cat si verticala rezultate din intersectia cu planele
+
+de acelasi nume respectiv planul orizontal [H] si planul vertical [V];
+
+e planul [P3] nu are urma laterala deoarece este paralel cu planul lateral ;
+
+e orice forma geometricd plana situaté in planul de [P3] se proiecteazi in adevarata
+marime de planul lateral |L| $1 deformat sub forma unor segmente de dreapta pe
+celelalte doua plane de protectie;
+
+e triunghiul EFG situat in planul paralel cu planul lateral se proiccteavd in adevarata
+marime pe planul [L] si deformat sub forma unor segmente de dreaptd Jé si g'e'.
+Standardul este considerat ca fiind o norma, o regul4 sau un criteriu unan
+plan national si international (Iiuta, 2007). Astfel au fost generate standarde
+metodologi, metode sau servic in domeniul ingineresc dar s1 in alte domenn de
+acestea se pot mentiona standardele din domeniul mecanicu, constructulor, arhi
+alimentare etc. Principalele tipologi de standardizare utilizate in practica inginerea:
+- STAS — standard romanesc elaborat pana in august 1992;
+
+-SRISO — standard romanesc preluat dupa un standard international ce au fost 2
+1992;
+- SR EN ISO — standard romanesc preluat dupa o norma europeana;
+- SR — standard romanesce elaborat dupa anul 1989 (Macarie si Olaru, 2004).
+Standardele sunt caracterizate de un indicativ format din tip, numéar de or
+aparitiei. Acronimul ISO semnificé International Standard Organization
+internationala de standardizare.
+Indiferent de tipul desenului reprezentarea grafica utilizeazd o serie de stz
+asociate tipurilor de formate si de linii de desenare. Pentru realizarea unui desen s
+
+ce are acele dimensiuni care sd permitd o reprezentare clara si 0 precizie corespun
+
+reprezinta suportul pe care se realizeaza reprezentarea grafica iar tabelul | prezinta
+
+ 
+-SR1ISO -— standard romanesc preluat dupa un standard mternational ce au fost aprobate in august
+1992;
+
+- SR EN ISO — standard romanesc preluat dupa o norma europeana;
+
+- SR — standard romanesc elaborat dupa anu! 1989 (Macarie si Olaru, 2004).
+
+Standardele sunt caracterizate de un indicativ format din tip, numar de ordine si anul de
+aparitiel. Acronimul ISO semnificd International Standard Organization sau Organizatia
+internafionala de standardizare.
+
+Indiferent de tipul desenului reprezentarea graficd utilizeazi o serie de standarde specifice
+asociate tipurilor de formate si de linii de desenare. Pentru realizarea unui desen se alege un format
+ce are acele dimensiuni care s4 permita o reprezentare clara $i 0 precizie corespunzatoare. Formatul
+reprezinti suportul pe care se realizeazi reprezentarea graficd iar tabelul | prezinté spre exemplu un
+
+un set de formate standardizate de tip A .
+
+Tabelul | Formate de tip A
+
+| 841 x 1189
+
+—
+
+ 
+
+ 
+Literatura de specialitate si standardele in vigoare propun in domentu! desenului tehnic difert
+tipologil asociate reprezentarilor in functie de domeniul de aplicabilitate. Astfel figura urmatoar
+prezinta sub forma grafica o serie de tipologii specifice desenului tehnic clasificate confort
+standardelor specifice din literatura de specialitate. Se observa astfel cd desenul tehnic e:
+standardizat pe domeniui de activitate specifice cum ar fi arhitectura, constructille etc..
+
+ 
+
+Figura |
+
+Un element important in reprezentanle grafice il reprezinté scara de reprezentare. Scara d
+Figura |
+
+Un element important in reprezentirile grafice il reprezinté scara de reprezentare. Scara de
+
+ 
+
+reprezentare este un concept ce stabileste raportul intre dimensiunile mdsurate pe desenul realizat $1
+cele reale, corespunzdtoare aceluiasi obiect (Macarie 51 Olaru, 2007). Valorie pentru scara unui
+
+desen recomandate de standardcle din domeniu sunt urmatoarele:
+
+ 
+
+e scarareala sau naturala 1:1] permite reprezentarca grafica la dimensiuni reale;
+
+e scari de marire 2:1; 5:1; 10:1; ete. determina reprezentarea grafica la dimensiuni marite cu o
+anumité valoare conform standardelor;
+
+e scdri de micgorare [:2; 1:5; 1:10; ete. realizeazi reprezentarea graficd la dimensiuni
+
+micsorate cu o anumité valoare conform standardelor in vigoare.
+
+ 
+TGAC - curs
+
+ 
+
+Linu utilizate in reprezentarile tehnice
+
+Liniile utilizate in reprezent4rile tehnice sunt diferentiate in functie de grosime si aspect. Astfel
+conform standardelor din domemiu exista patru forme de lini $1 anume:
+linia continua
+
+linia intrerupta
+
+ 
+
+linia punct
+
+linia doud puncte.
+
+Aceste patru tipun de linii au asociate doud clase de grosime. Fiecare tip de linie are stabilit if
+
+mod specific cadrul de utilizare. Dacd se considerd grosimea une lini notaté cu b atunci aceasta se
+
+selecteaza din urmatorul sir de valori exprimate in mm: 0,18; 0,25; 0,35; 0,50; 0,70; 1,0; 1,4; 2,0.
+|
+
+Tabelul 2 prezinté tipurile de lin utilizate reprezentiarile grafice in conformitate cu standardele
+specifice domeniului (Macarie si Olaru, 2007).
+
+ 
+Linnle utilizate in reprezentanle tehnice sunt diferentiate in functie de grosime gi aspect. Astfel
+conform standardelor din domeniu exist4 patru forme de linii si anume:
+linia continua
+linia intrerupta
+linia punct
+linia doud puncte.
+Aceste patru tipuri de linti au asociate doua clase de grosime. Fiecare tip de linie are stabilit in
+mod specific cadrul de utilizare. Daca se considera grosimea une linn notaté cu b atunci aceasta se
+
+selecteaza din urmatorul sir de valori exprimate in mm: 0,18; 0,25; 0,35; 0,50; 0,70; 1,0; 1,4; 2,0.
+
+Tabelul 2 prezinté tipurile de lint utilizate reprezentarile grafice in conformitate cu standardeleg
+
+specifice domeniului (Macarie $i Olaru, 2007).
+
+ 
+Linie continua subtire NAN
+h 2g zag
+
+groasa ne ee
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ELEMENTE $1 NORME DE REPREZENTARE GRAFICA
+
+Repreventarea grafic’ exactd a on chiect spatial se realiveazA utilizind cunastintele dim dou
+domenn conexe si anume geometia descriptiva 3i desenul tchnic. Prin obicct spatial se poate
+intelege un corp suu un produs, o presd, un subansamblu etc.
+
+Operatia de unificare a regulilor 51 conventilor de reprezeniare. grafici este cunoscutd in
+literatura de specialitate sub demumures de standardizare.
+Standardul.cste considerat ca fund o norma. o regula sau un critcriu unanim recunoscut pe
+plao national si infernetronal (Ilys, 2007). Asticl au fost generate standarde pnvind produse,
+metodologr. metode sau servic in domeniul mginerese dar 91 Tn alte domenii de activitate. Dintre
+acesica sc pot menwiona standardelc dm domentul mecanicii. comstructilor, arhitectura, industrici
+alimentare ctc. Pruacipalele tipalogu de standardizare wulizate in practica ingincreasca sunt:
+- STAS — standard romanese elaborat pand in august 1992:
+-SRISO — standard romanese prelual dupé un standard international ce au fost aprobate in august
+1992;
+~ SR EN ISO ~— standard romanesc preluat dup’ o norma curopeand:;
+~ SR — standard roménesc claborat dupa anu! 1989 (Macare @ Olani, 20004).
+
+Standardele samt curactervate de un mew format din tip, numar de ordine 9) anul de
+aparitiel. Acronsmul ISO sceamificd International Standard Organization sau Organizagia
+imicmationald de standardizare.
+
+ 
+Desen tehnic
+industrial
+
+Desenul de
+arhitectura
+
+   
+ 
+
+  
+  
+
+Figura |
+Un element important in reprezentirile grafice il reprezinté scara de reprezentare. Scara
+de reprezentare este un concept ce stabileste raportul intre dimensiunile masurate pe desenul
+realizat 51 cele reale, corespunzatoare aceluiasi obiect (Macarie 51 Olaru, 2007). Valorie
+pentru scara unui desen recomandate de standardele din domeniu sunt urmiatoarele:
+e scara reald sau naturala 1:1 permite reprezentarea grafica la dimensiuni reale;
+
+e scan de manre 2:1; 5:1]; 10:1; etc. determma reprezentarea grafica la dimensiuni
+
+ 
+Figura |
+Un element important in reprezentanile grafice il reprezinta scara de reprezentare. Scara
+de reprezentare este un concept ce stabileste raportul intre dimensiunile masurate pe desenul
+realizat $1 cele reale, corespunzatoare aceluiasi obiect (Macarie $i Olaru, 2007). Valorile
+pentru scara unui desen recomandate de standardele din domeniu sunt urmatoarele:
+¢ scara reala sau naturala 1:1 permite reprezentarea grafica la dimensiuni reale;
+e scan de manre 2:1; 5:1; 10:1; etc. determina reprezentarea graficd la dimensiuni
+marite cu o anumité valoare conform standardelor;
+e scdri de micsorare 1:2; 1:5; 1:10; etc. realizeaz4 reprezentarea graficd la dimensiuni
+micsorate cu 0 anumité valoare conform standardelor in vigoare.
+Un alt standard important in reprezentdrile grafice se referd la trasarea liniilor. Astfel
+
+“i i ih et ha Velo ae
+standardul specific SR EN ISO 128-20:2002 stabileste tipurile de linii, notarea, forma si
+
+grosimea acestora precum $i reguli generale de utilizare.
+
+9GAC - curs
+
+(*** - Concepte fundamentale utile, 2012).
+Linule utilizate in reprezentarnle tehnice sunt diferentiate in functie de grosime $1 aspect,
+Astfel conform standardelor din domeniu exista patru forme de lini si anume:
+e linia continua
+linia intrerupta
+linia punct
+e linia doud puncte.
+
+Aceste patru tipun de linn au asociate doud clase de grosime. Fiecare tip de linie are
+
+stabilit in mod specific cadrul de utilizare. Daca se considera grosimea unei lini notata cu b
+
+atunci aceasta se selecteaz4 din urmatorul sir de valor exprimate in mm: 0,18; 0,25; 0,35;
+0,50; 0,70; 1,0; 1,4; 2,0. Tabelul 1 prezinta tipunle de linn utihzate reprezentanle grafice in
+
+conformitate cu standardele specifice domeniului (Macarie si Olaru, 2007).
+
+ 
+a MM Mt
+
+Din punct de vedere al cadrului de utilizare al linilor se pot identificz
+
+He aplicabilitate practica prezentate in tabelul 3 (*** - Concepte fundame
+
+Tabelul 2 Domeniul de aplicabilitate al liniilor
+
+ 
+Tabelul 2 Domeniul de aplicabilitate al liniilor
+
+Nr.
+Crt.
+j I
+
+Tip linie
+
+A
+
+pentru realizarea de contururi, muchii reale
+vizibile, chenarul formatului, etc.
+desenarea de muchii fictive, linii de cota,
+linii ajutatoare, hasuri etc.
+
+reprezentarea rupturilor in sectiune sau
+vedere
+
+desenarea rupturilor realizate cu aparate
+automate.
+
+reprezentarea contururilor si a muchiilor
+
+acoperite.
+Nr.
+
+Tip linie
+
+A
+
+Utilizare
+
+pentru realizarea de contururi, muchii reale
+vizibile, chenarul formatului, etc.
+desenarea de muchii fictive, linii de cota,
+
+linii ajutatoare, hasuri etc.
+
+reprezentarea rupturilor in sectiune sau
+
+vedere
+
+desenarea rupturilor realizate cu aparate
+automate.
+
+reprezentarea contururilor si a muchuilor
+acoperite.
+
+desenarea conturunlor si  muchulor
+
+acoperite.
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Se observa analizind tabelul anterior cd standardele anterior prezentate se sté
+
+grosimea tipului de linie pentru fiecare caz in parte iar raportul dintre o linie groasa
+
+ 
+sc observa analizand tabclul anterior ca standardele anterior prezentate se stabilesc
+
+prosimea tipulu: de lime pentru ficcare cay In paric ir raportul dintre o linie groasé $1 una
+
+9GAC - curs
+
+subtire find de I/2 sau 1/3. Figura 2 prezinté un exemplu de utilizate pentru trei tipuri de
+
+limi
+Lome puncl
+
+subtre tro G
+
+_ Lame continua
+groasé tp A
+
+Figura 2 Exemplu
+
+Analizind figura 2 se observa ci urmiitoarele aspecte:
+- linia continud groas4 de tip A este utilizaté pentru reprezentarea conturului obietului
+reprezentat in sectiune;
+
+linia continua subtire de tip B este whilizataé pentru reprezentarea hasuru:
+
+linia punct subtire de tip G este utilizaté pentru reprezentarea axei de simetrie a
+
+reprezentarit.
+
+ 
+ 
+ELEMENTE $I NORME DE REPREZENTARE GRAFICA
+
+Literatura de specialitate s1 standardele in vigoare propun in domeniul desenului tehnic
+diferite tipologii asociate reprezentarilor in functie de domeniul de aplicabilitate. Astfel figura
+urmatoare prezinta sub forma grafica o serie de tipologii specifice desenului tehnic clasificate
+conform standardelor specifice din literatura de specialitate. Se observa astfel ca desenul
+tehnic este standardizat pe domenii de activitate specifice cum ar fi arhitectura, constructiile
+
+etc..
+
+Desenul de
+instalatii
+
+ 
+ 
+
+ 
+IOGAC - curs
+
+Dispunerea proiectulor pe planul de proiectic, conform standardelor specifice rezulta
+prin desfasurarea cubului de proiectie din figura | in interiorul caruia se afld obiectul spatial.
+Acesta se protecteazd pe partea interioara a fetelor acestui cub. Sistemul tridimensional de
+reprezentare permite realizarea proiectiilor unui obiect spatial de tip piesa, subnasamblu etc,
+dupa sase directii reciproc perpendiculare. In literatura de specialitate (Macarie si Olaru,
+2007; Iliuté, 2007) au fost identificate doud variante utilizate pentru generarea proiectiilor
+Varianta curopeand si alternativa nord-amencana. Astfel in varianta curopeand valabila $i
+pentru fara noastrA se consider obiectul pozijionat intre observator uman gi planul de
+
+proiectie. In varianta americana se interpune planul de proiectie intre obiectul reprezentat si
+
+observator.
+
+Vederea se defineste conform standardelor din literatura de specialitate ca fiind
+reprezentarea in proiectie ortogonala pe un plan de proiectie a unui corp tridimensional sau a
+unui obiect nesectionat. Indiferent de varianta aleasd curopeand sau americana in literatura
+de specialitate existA sase vederi corespunzdtoare celor sase directii ce sunt reciproc
+
+ 
+IOGAC - curs
+
+Dispunerea proiectiilor pe planul de proiectic, conform standardelor specifice rezulta
+prin desfasurarea cubului de prorectie din figura | in interiorul cdruia se afld obiectul spatial.
+Acesta se proiecteaza pe partea interioara a fefelor acestui cub. Sistemul tridimensional de
+reprezentare permite realizarea proiectiilor unui obiect spatial de tip piesd, subnasamblu etc.
+dupa sase directii reciproc perpendiculare. In literatura de specialitate (Macarie si Olaru,
+2007; Liutaé, 2007) au fost identificate dowd variante utilizate pentru generarea proiectilor
+varianta europeand si alternativa nord-americand. Astfel in varianta europeand valabilA si
+pentru {ara noastra se considera obicctul povijional intre observator uman s1 planul de
+proiectie. In varianta americana se interpune planul de proiectie intre obiectul reprezentat si
+observator.
+
+Vederea se defineste conform standardelor din literatura de specialitate ca fiind
+reprezentarea in proiectie ortogonalad pe un plan de proiectie a unui corp tridimensional sau a
+unui obiect nesectionat. Indiferent de varianta aleasi europeand sau americand tn literatura
+de specialitate existi sase vederi corespunzdtoare celor gsase directil ce sunt reciproc
+perpendiculare una pe cealalaté. Aceste vederi 51 denuminile acestora sunt reprezentate grafic
+
+in figura 3 in asociere cu un obiect tridimensional.
+ 
+Figura 3 Tipurni de vederi
+Vederile ce formeaza cubul proiectiilor sunt integrate in categoria vederi obisnuite. Pe
+lang& aceste mai exist4 In conformitate cu standardele vederi particulare obtinute dupa
+directii de proiectie impuse. Indiferent de tipul de vedere generataé acesta trebuie si includa
+conturul aparent al corpului reprezentate, precum si muchile respective linule de intersectie
+vizibile din directia de proiectare utilizata (*** - Concepte fundamentale utile, 2012).
+1OGAC - curs
+
+Dispunerea vederilor prezentate in figura 3 pe planul de proiectie se realizeazi
+conform standardelor in vigoare si rezult4 prin desfasurarea cubului de proiectie. Acesta
+asociaza vederile cu planele de proiectie in scopul determinarii cat mai exacte a obiectului ce
+urmeaza a fi reprezentat. Astfel analizand cubul de protectii se pot determina cele sase tipuri
+de vederi.
+
+Vederea din fata se mai numeste vedere principala 51 este"objinutadupa directia A.
+Vederea de jos este proicctia obtinuté dupa directia B, pe un plan de paralel cu planul
+onizontal de proiectie [H]. Vederea opusa cea de sus este proiectia obtinuta dupa directia E,
+pe cel de-al dotlea plan de proiectie paralel cu planul orizontal [H] (care poate fi considerat
+chiar planul ornzontal de proiectie) ( Macarie si Olaru, 2007).
+
+Vederea din dreapta este proiectia obtinuté dupa directia D, pe cel de-al doilea plan de
+paralel cu planul lateral (care poate fi considerat chiar planul lateral de proiectie). Similar
+vederea din stanga se defineste ca fiind proiectia obtinuté dupa directia C, pe un plan paralel
+cu planul lateral de proiectie [L]. Vederea din spate este prorectia obt{inuta dupa directia F, pe
+un plan de paralele cu planul vertical de proiectic [V] situal in fafa corpului .
+
+Pentru a reprezenta un obiect din spafiu sunt necesare minim trei veden. Se observa
+c4 in interiorul cubulu: a fost introdus un obiect tridimensional oarecare. Din punct de vedere
+al standardelor specifice atat pentru reprezentarea in vedere cat si pentru conturul aparent si
+muchiile vizibile reale se utili
+cu linie subtire intrerupta. De aseme
+
+ 
+
+4 linia continua groasa iar muchiile acoperite se traseaza
+ea muchiile fictive se traseaza cu linie continua subtire
+
+ 
+
+de tp B. Muchiile ficuve reprezinta mtersec{n imaginare ale obiectului cu alte suprafete $1
+sunt ob{inute prin racordare (Macarie 51 Olaru, 2007).
+Figurile 4 si 5 prezinté desfasurata cubului in cele doud variante anterior mentionate si
+
+anume Varianla curopeana $1 cea nord-americana.
+Figura 4 Variania |
+
+Figura 5 Varianta Il
+
+ 
+ 
+
+Figura 5 Varianta II
+
+Indiferent de varianta dispunere aleasi scopul este reprezentarea corectA a obiectelor
+perpendiculare si pe standardele specifice.
+
+itoare celor sase directii reciproc
+
+ 
+LOGAC - curs
+
+ 
+
+Figura | Cubul proiectiilor
+LOGAC - curs
+
+REPREZENTAREA PRIN VEDERI. DISPUNEREA PROIECTIILOR.
+
+Un obicct din spafiul tndimensional ce poate fi o picsa, un subansamblu sau un
+produs real este reprezentat in totalitate utilizand proiectia ortogonald pe sase plane de
+proiectie si integreazi conceptul de vedere. Impreund cele sase plane de proiectie pot genera
+suprafata unui cub imaginar cunoscut in literatura de specilitate sub denumirea de ,,cubul
+proiectiilor’’. Vederea se defineste conform literaturii de specialitateca fiind reprezentarea in
+proiectie ortogonala pe un plan, a unui obiect nesectionat. Desenarea obiectului se bazeaza
+pe conceptul de proiectie ortogonala in care sunt utilizate reprezentarile mai multor vederi in
+conformitate cu standardele in vigoare din literatura de specialitate in scopul definiri
+complete si exacte a tuturor caracteristicilor obiectului reprezentat. Astfel vederea include
+conturul aparent al unui obiect spatial sau ansamblului de obiccte, conturul fiecdrei forme
+geometrice simple integrate precum $1 muchule si linule de intersectie dintre suprafefele
+componente. Sistemul tridimensional asiguré generarea proiectiilor unui obiect dupa cele
+sase direct. Daca se doreste reprezentarea unui obiect spatial dupa vederea obisnuita atunci
+
+literatura de specialitate (Macarie si Olaru, 2007, *** - Concepte fundamentale utile etc.
+
+2012) utilizeazA conceptul de .,cub al proiectiilor’’. Un obiectul tridmensional — este astfel
+
+=
+
+pozitionat in interiorul acestui cub s1 este pro > partea interioaré a fiecarei fete a
+
+ 
+|
+
+Ree epphid Pepe eeke dy area iS
+
+_ =
+Ls
+
+Figura | Cubul provectilor
+standardelor corespunyatoare domemulut este preventat in figura 2.
+
+ 
+descriptiva referitoare la urma unui plan prezentata in capitolulul a
+
+Figura 1 Reprezentarea traseului de sectionare
+
+ 
+11GAC - curs
+
+Traseul de secfionare se reprezintA conform standardelor cu linie punct subjire avand la
+extremitaji 51 la punctele de schimbare a directiei porjiumi de dreapta trasate cu linie
+continua groas4 conform figurii 1.
+
+Reprezentarea 1 clasificarea sectiunilor se bazeazd pe standarde tehnice specifice.
+Intrucat scopul prezentului subcapitol este de a genera o caracterizare de asamblu a
+reprezentari: bazata pe sectiumi vor fi prezentate in lini! generale principalele aspecte
+deduse pe baza standardelor si a literaturu de specialitate (Iliuja, 2007; Macarie si Olaru,
+2007) din domeniu. Astfel sectiunile se pot clasifica dupd mai multe criterii unul dintre
+acestea il reprezinté dupa pozitia de secjionare faji de axa principalaé obiectului reprezentat.
+
+In raport cu acest criteriu exist4 sectiune longitudinala $1 sectiunea transversala.
+
+Sectiunea longitudinala este determinatd atunci cand planul de secjionare cont{ine sau este
+paralel cu axa principald a obrectului reprezentat. Sectiunea transversala este generata atunci
+cind planul de sectionare este ortogonal pe axa principald a obiectului ce urmeaza a fi
+
+ 
+reprezentat.
+
+Un alt crnteriul de clasificare i] reprezinta pozitia suprafetei de sectionare in raport cu
+planul orizontal de prowectic generand sectiunca orzontala, sectiunea verticald sau dupa caz
+o sectiune particulara. Sectiunea onzvontala reprezimta suprafata de sectionare ce este paralela
+cu planul onzontal de proiectie [H]. Sectiunea verticala se defineste ca find suprafata de
+sectlonare ce este perpendiculara pe planul vertical de proiectie [V] In timp ce sectiune
+particulara reprezinta planul de sectionare ce are o directic oarecare faja de planul onzontal
+de proiectie | H]}.
+
+In asociere cu sectiunea a fost prezentat anterior si conceptul de ruptura a unei parti a
+
+obiectului tridimensional. Astfel ruptura se refera la indepartarea unei parti dintr-un obiect
+
+ 
+
+pentru a putea obtine reprezentarea unor veder sau a unci sectiuni partiale ale acestuta (*** 
+Concepte fundamentale utile, 2012).
+
+PRINCIPIT DE HASURARE
+
+ 
+PRINCIPI DE HASURARE
+
+Un alt element important al cadrului de reprezentare al unui obiect tridimensional il
+reprezinta hasura. Aceasta este o reprezentare grafica utilizata pentru a pune in evidenta
+partile nesectionate ale unui obicct tidimensional gs este asociaté cu reprezentarea in
+sectiune.,
+
+Hasurarea reprezinta notarea conventionalaé grafica pe desen a diferitelor tipun de
+
+materiale utilizate in realizarea unui corp conform standardelor din domeniu. Pentru diferite
+
+| 1GAC - curs
+
+materiale din care sunt realizate obiectele reprezentate standardul stabileste forma si aspectul
+
+hasurilor. Hasurarea are ca scop punerea in evidenté a sectiunilor pline pentru obiectelor
+
+reprezentate pe desen $1 a tipulu: de materiale din care este realizat obiectul respectiv.
+
+ 
+Reprezentare grafica
+
+| Material metalic
+
+Materiale nemetalice
+
+.| Sticla si alte materiale |
+
+transparente
+Lemn -sectiune
+
+transversala pe fibra
+
+Lemn - sectiune
+longitudinala pe fibra
+Lichid
+
+Tipul materialului
+
+ 
+Vodafone RO G@
+
+Lichid
+
+Beton armal
+
+Figura 2 Exemple -tipun de hasura
+
+Standardele in domeniu stabilesc o sere de reguli pentru realizarea hagsuri. Astfel
+
+sectiunile aceluiagi obiect se hasureaza identic, atat ca distanjé cat $1 ca orientare a linulor de
+
+ 
+
+LIGAC - curs
+
+hasuré. De asemenea se impune ca distanja dintre linnle de hasgura se alege intre conform
+standardelor din literatura de specialitate in limitele 0,5...6 mm in functic de marmea
+reprezentari grafice si sunt linn de tip B sau linn subtin continue.
+
+in cazul obiectelor metalice sectionate partile pline ale acestora se hasgureazé cu lini
+
+continue subtiri (linie de tip B), paralele, inclinate la 45 de grade intr-un sens sau in altul fata
+11GAC - curs
+
+hasura. De asemenea se impune ca distanta dintre lintile de hasura se alege intre conform
+standardelor din literatura de specialitate in limitele 0,5...6 mm in functie de marimea
+reprezentarii grafice si sunt linii de tip B sau linii subtiri continue.
+
+In cazul obiectelor metalice sectionate partile pline ale acestora se hasureaza cu linii
+continue subturi (linie de tip B). paralele, inclinate la 45 de grade intr-un sens sau in altul fata
+de o linie de contur sau de o axa a reprezentani grafice (Ilia, 2007; Macare gs: Olaru,
+2007).
+
+ 
+
+Figura 3 Exemplu de hasura
+ 
+
+Figura 3 Exemplu de hasura
+
+Figura 3 prezinté un exemplu de hasura pentru o sectiune generata intr-un obiect
+realizat din metal. Se observa ca linule de hasur4 au o inclinare de patruzeci $1 cinci de grade
+fata de onzontala. De mentionat faptul cA hasurnile tuturor sectiunilor care se refera la acelasi
+
+corp se traseazd in acelasi sens, cu aceeasi inclinare si la aceeasi distan{i.
+
+~
+
+ 
+

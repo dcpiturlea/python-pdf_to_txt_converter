@@ -9,7 +9,7 @@ from PyPDF2 import PdfFileReader
 import easygui
 
 
-def main_func(PDF_file_path=None, file_types=None):
+def main_func(PDF_file_path=None, file_types=None, only_images=None):
     if PDF_file_path is None and file_types is None:
         PDF_file_path = ""
         default_path = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') + "\*.pdf"
